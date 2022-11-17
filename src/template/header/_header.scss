@@ -1,0 +1,30 @@
+// --------------------------------------------------------------------------------
+// LAYOUT - FOOTER
+//---------------------------------------------------------------------------------
+.t-layout header {
+    background: $color-primary;
+    color: $color-white;
+    padding: $spacing-l $spacing-xxl;
+
+    @media($bp-smart-tablet) {
+        padding: $spacing-l;
+    }
+
+
+    .logo {
+        font-size: $font-size-l;
+    }
+
+    .content {
+        display: flex;
+        gap: $spacing-xl;
+        justify-content: left;
+        margin-bottom: $spacing-l;
+
+        @media($bp-tablet) {
+            align-items: center;
+            flex-direction: column;
+            gap: $spacing-m;
+        }
+    }
+}

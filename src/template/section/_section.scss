@@ -3,31 +3,17 @@
 //---------------------------------------------------------------------------------
 .t-layout main article {
     section {
-        @include theme() {
-            background: theme-get('section-background-light');
-        }
-    }
-    .section-single {
-        padding: $spacing-xxl;
-
-        .title {
-            font-family: $font-family-title;
-        }
-    }
-
-    .section-background-dark {
-        @include theme() {
-            background: theme-get('section-background-dark');
-        } 
+        background: $color-white;
+        padding: $spacing-xxl $spacing-l;
     }
 
     @media($bp-tablet-landscape) {
-        .section-single {
+        section {
             padding: $spacing-xl $spacing-xl;
         }
     }
     @media($bp-tablet) {
-        .section-single {
+        section {
             padding: $spacing-l $spacing-l;
         }
     }

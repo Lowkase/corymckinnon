@@ -1,23 +1,23 @@
 import React from 'react'
 import PropTypes from "prop-types";
 
-// BUTTON EXTERNAL
-const ButtonExternal = (props) => {
+// BUTTON EMAIL
+const ButtonEmail = (props) => {
     return (
         <div class="m-button-con">
             <a 
                 className={`m-button ${ props.scheme }`} 
-                href={props.link}
-                target="_blank"
+                href={"mailto:" + props.mailAddress}
                 rel="noreferrer" 
-                tabIndex={props.tabIndex}>
+                tabIndex={props.tabIndex}
+                target="_blank">
                 <span className="text">{props.text}</span>
             </a>
         </div>
     );
 }
 
-ButtonExternal.propTypes = {
+ButtonEmail.propTypes = {
     link: PropTypes.string,
     scheme: PropTypes.string,
     tabIndex: PropTypes.string,
@@ -28,11 +28,11 @@ ButtonExternal.propTypes = {
 // PRIMARY = BLUE
 // SECONDARY = WHITE
 // FOOTER = TRANSPARENT
-ButtonExternal.defaultProps = {
+ButtonEmail.defaultProps = {
     link: '',
     scheme: 'PRIMARY',
     tabIndex: '0',
     text: '',
 };
 
-export default ButtonExternal
+export default ButtonEmail

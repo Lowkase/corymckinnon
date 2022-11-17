@@ -2,10 +2,25 @@
 // COMPONENTS - CARD
 // --------------------------------------------------------------------------------
 
+// CARD
+.m-card {
+    background: $color-white;
+    border-radius: $spacing-s;
+    box-shadow: $box-shadow;
+    padding: $spacing-l;
+
+    svg {
+        height: $spacing-xl;
+        width: $spacing-xl;
+    }
+
+    .title {
+        font-family: $font-family-title;
+    }
+}
+
 // CARD GRID
 .m-card-grid {
-    padding: $spacing-xxl $spacing-l;
-
     .m-card-grid-row:last-child{
         margin-bottom: 0;
     }
@@ -38,22 +53,4 @@
     .m-card-grid-3 {
         grid-template-columns: 1fr;
     } 
-}
-
-
-// CARD
-.m-card {
-    background: $color-white;
-    border-radius: $spacing-s;
-    box-shadow: $box-shadow;
-    padding: $spacing-l;
-
-    svg {
-        height: $spacing-xl;
-        width: $spacing-xl;
-    }
-
-    .title {
-        font-family: $font-family-title;
-    }
 }

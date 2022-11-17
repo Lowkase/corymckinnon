@@ -13,46 +13,60 @@ $client-width:                               360px;
 //$darken:                                   darken($color, 10);
 //$lighten:                                  lighten($color, 10);
 
+
 // TRANSPARENT
 $color-transparent:                          transparent;
 
 // WHITE
 $color-white: 								 #FFFFFF;
-$color-white-darker:                         #F1F1F1;
 
 // BLACK
 $color-black: 								 #000000;
 
 // GREY
 $color-gray:                                 #0B0E11;
-$color-gray-opaque:                          rgba(7, 14, 17, .5);
 
+// INDIGO
+$color-indigo-dark:                          #364FC7;
+$color-indigo-light:                         #EDF2FF;
+
+// PRIMARY / SECONDARY
+$color-primary:                              $color-indigo-dark;
+$color-secondary:                            $color-indigo-light;
+
+
+
+
+$color-white-darker:                         #F1F1F1;
+$color-gray-opaque:                          rgba(7, 14, 17, .5);
+$color-gray:                                 #0B0E11;
 // BLUE
 $color-blue-normal:                          #0060F8;
 $color-blue-normal-hover:                    #7c00f8;
 $color-blue-light:                           #c0d8ff;
 $color-blue-lighter:                         #e1ecff;
+$font-family-title:                          Nunito, sans-serif;
+$color-primary-hover:                        $color-indigo-dark;
 
-// PRIMARY / SECONDARY
-$color-primary:                              $color-blue-normal;
-$color-primary-hover:                        $color-blue-normal-hover;
-$color-secondary:                            $color-blue-light;
+
+
+
 
 
 // FONTS
 // --------------------------------------------------------------------------------
-$font-family:                                Open Sans, sans-serif;
-$font-family-title:                          Secular One, sans-serif;
+$font-family:                                Nunito, sans-serif;
 
 $font-weight-light:                          300;
 $font-weight-regular:                        400;
 $font-weight-semibold:                       600;
 $font-weight-extrabold:                      800;
 
-$font-size-s:                                12px;
-$font-size-m:                                16px;
-$font-size-l:                                18px;
-$font-size-xl:                               40px;
+$font-size-xs:                               12px;
+$font-size-s:                                16px;
+$font-size-m:                                20px;
+$font-size-l:                                24px;
+$font-size-xl:                               32px;
 
 
 // SPACING
@@ -82,7 +96,7 @@ $border-radius:								 4px;
 
 // BOX SHADOW
 // --------------------------------------------------------------------------------
-$box-shadow:								rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+$box-shadow:								0px 5px 14px rgba(0, 0, 0, 0.2);
 
 
 // TRANSITIONS

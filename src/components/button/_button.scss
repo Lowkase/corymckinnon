@@ -42,34 +42,16 @@
     }
 }
 
-.m-button-primary {
+.m-button-header {
     @include theme() {
-        color: theme-get('button-primary-link-color') !important;
-        background: theme-get('button-primary-background');
-    } 
-}
-.m-button-primary:hover {
-    @include theme() {
-        color: theme-get('button-primary-link-color-hover') !important;
-        background: theme-get('button-primary-background-hover');
-    } 
-}
-
-.m-button-secondary {
-    @include theme() {
-        color: theme-get('button-secondary-link-color') !important;
-        background: theme-get('button-secondary-background');
+        color: theme-get('button-header-link-color') !important;
+        background: theme-get('button-header-background');
     }
 }
-.m-button-secondary:hover {
+.m-button-header:hover {
     @include theme() {
-        color: theme-get('button-secondary-link-color-hover') !important;
-        background: theme-get('button-secondary-background-hover');
-    } 
-}
-.m-button-secondary:hover svg  {
-    @include theme() {
-        fill: theme-get('button-secondary-link-color-hover') !important;
+        color: theme-get('button-header-link-color-hover') !important;
+        background: theme-get('button-header-background-hover');
     } 
 }
 
@@ -83,15 +65,5 @@
     @include theme() {
         color: theme-get('button-footer-link-color-hover') !important;
         background: theme-get('button-footer-background-hover');
-    } 
-}
-.m-button-footer svg  {
-    @include theme() {
-        fill: theme-get('button-footer-link-color-hover') !important;
-    } 
-}
-.m-button-footer:hover svg  {
-    @include theme() {
-        fill: theme-get('button-footer-link-color-hover') !important;
     } 
 }

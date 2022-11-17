@@ -4,41 +4,38 @@ import ButtonEmail from "../../components/button/ButtonEmail"
 import ButtonExternal from "../../components/button/buttonExternal"
 
 // FOOTER
-const Footer = (props) => {
+const Header = (props) => {
   return (
-    <footer>
+    <header>
         <div class="content">
+            <div className="logo">Cory Mckinnon</div>
             <ButtonEmail
                 mailAddress="cory.mckinnon@gmail.com"
-                scheme="m-button-footer"
+                scheme="m-button-header"
                 text="Email"
             >
             </ButtonEmail>
             <ButtonExternal
                 link="Linked In"
-                scheme="m-button-footer"
+                scheme="m-button-header"
                 text="Linked In"
             >
             </ButtonExternal>
             <ButtonExternal
                 link="Dribbble"
-                scheme="m-button-footer"
+                scheme="m-button-header"
                 text="Dribbble"
             >
             </ButtonExternal>
             <ButtonExternal
                 link="Resume"
-                scheme="m-button-footer"
+                scheme="m-button-header"
                 text="Resume"
             >
             </ButtonExternal>
-        </div>
-        <div className="copyright">
-            <div>© {new Date().getFullYear()}, Lowkase Web Development Inc.</div>
-            <div>All rights reserved</div>
-        </div>
-    </footer>
+        </div>        
+    </header>
   );
 }
 
-export default Footer
+export default Header

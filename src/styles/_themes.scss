@@ -4,15 +4,10 @@
 // --------------------------------------------------------------------------------
 $themes: (
     theme: (
-        'button-primary-background': $color-primary,
-        'button-primary-background-hover': $color-primary-hover,
-        'button-primary-link-color': $color-white,
-        'button-primary-link-color-hover': $color-white,
-
-        'button-secondary-background': $color-white,
-        'button-secondary-background-hover': $color-primary-hover,
-        'button-secondary-link-color': $color-primary,
-        'button-secondary-link-color-hover': $color-white,
+        'button-header-background': $color-transparent,
+        'button-header-background-hover': $color-white,
+        'button-header-link-color': $color-white,
+        'button-header-link-color-hover': $color-black,
 
         'button-footer-background': $color-transparent,
         'button-footer-background-hover': $color-primary-hover,
@@ -33,10 +28,7 @@ $themes: (
         'layout-scroll-thumb': $color-gray,
 
         'section-background-light': $color-white-darker,
-        'section-background-dark': $color-secondary,
-
-        'testimonial-background': $color-white,
-        'testimonial-quote-fill': $color-blue-normal,
+        'section-background-dark': $color-secondary
     )
 );
 
