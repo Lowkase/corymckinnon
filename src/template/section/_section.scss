@@ -1,0 +1,34 @@
+// --------------------------------------------------------------------------------
+// LAYOUT - SECTION
+//---------------------------------------------------------------------------------
+.t-layout main article {
+    section {
+        @include theme() {
+            background: theme-get('section-background-light');
+        }
+    }
+    .section-single {
+        padding: $spacing-xxl;
+
+        .title {
+            font-family: $font-family-title;
+        }
+    }
+
+    .section-background-dark {
+        @include theme() {
+            background: theme-get('section-background-dark');
+        } 
+    }
+
+    @media($bp-tablet-landscape) {
+        .section-single {
+            padding: $spacing-xl $spacing-xl;
+        }
+    }
+    @media($bp-tablet) {
+        .section-single {
+            padding: $spacing-l $spacing-l;
+        }
+    }
+}

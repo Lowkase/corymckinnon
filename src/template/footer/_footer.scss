@@ -1,0 +1,30 @@
+// --------------------------------------------------------------------------------
+// LAYOUT - FOOTER
+//---------------------------------------------------------------------------------
+.t-layout footer {
+    background: $color-black;
+    color: $color-white;
+    padding: $spacing-xxl;
+
+    @media($bp-smart-tablet) {
+        padding: $spacing-l;
+    }
+
+    .content {
+        display: flex;
+        gap: $spacing-xl;
+        justify-content: center;
+        margin-bottom: $spacing-l;
+
+        @media($bp-tablet) {
+            align-items: center;
+            flex-direction: column;
+            gap: $spacing-m;
+        }
+    }
+
+    .copyright {
+        font-size: $font-size-s;
+        text-align: center;
+    }
+}

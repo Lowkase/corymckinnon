@@ -1,0 +1,55 @@
+// --------------------------------------------------------------------------------
+// COMPONENTS - TESTIMONIAL
+// --------------------------------------------------------------------------------
+.m-testimonial-list {
+    .m-testimonial:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.m-testimonial {
+    @include theme() {
+        background: theme-get('testimonial-background');
+    }
+
+    border-radius: $spacing-s;
+    box-shadow: $box-shadow;
+    margin-bottom: $spacing-l;
+    padding: $spacing-l;
+
+    @media($bp-tablet-landscape) {
+        margin: 0 $spacing-l $spacing-l $spacing-l;
+    }
+    @media($bp-tablet) {
+        margin: 0 $spacing-s $spacing-l $spacing-s;
+        padding: $spacing-m;
+    }
+
+    .text-con {
+        @include position-relative-reset();
+        display: grid;
+        grid-gap: $spacing-m;
+        grid-template-columns: 1fr 10%;
+    }
+
+    .quote {
+        @include position(absolute, $right: 0);
+        @include theme() {
+            fill: theme-get('testimonial-quote-fill');
+        }
+
+        height: $spacing-l;
+        width: $spacing-l;
+
+        @media($bp-tablet) {
+            height: $spacing-ml;
+            width: $spacing-ml;
+        }        
+    }
+
+    .person {
+        font-weight: $font-weight-semibold;
+        margin-top: $spacing-m;
+        text-align: right;
+    }
+}

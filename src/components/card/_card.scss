@@ -1,0 +1,59 @@
+// --------------------------------------------------------------------------------
+// COMPONENTS - CARD
+// --------------------------------------------------------------------------------
+
+// CARD GRID
+.m-card-grid {
+    padding: $spacing-xxl $spacing-l;
+
+    .m-card-grid-row:last-child{
+        margin-bottom: 0;
+    }
+}
+  
+.m-card-grid-row {
+    margin-bottom: $spacing-l;
+}
+  
+.m-card-grid-2 {
+    display: grid;
+    grid-column-gap: $spacing-l;
+    grid-row-gap: $spacing-l;
+    grid-template-columns: 1fr 1fr;
+}
+.m-card-grid-3 {
+    display: grid;
+    grid-column-gap: $spacing-l;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media($bp-tablet-landscape) {
+    .m-card-grid-3 {
+        grid-template-columns: 1fr;
+    } 
+}
+@media($bp-tablet) {
+    .m-card-grid-2 {
+        grid-template-columns: 1fr;
+    }
+    .m-card-grid-3 {
+        grid-template-columns: 1fr;
+    } 
+}
+
+
+// CARD
+.m-card {
+    background: $color-white;
+    border-radius: $spacing-s;
+    box-shadow: $box-shadow;
+    padding: $spacing-l;
+
+    svg {
+        height: $spacing-xl;
+        width: $spacing-xl;
+    }
+
+    .title {
+        font-family: $font-family-title;
+    }
+}

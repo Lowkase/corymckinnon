@@ -1,0 +1,50 @@
+// --------------------------------------------------------------------------------
+// THEMES
+//     - Abstract the colors defined in variables.scss to a higher level meaning
+// --------------------------------------------------------------------------------
+$themes: (
+    theme: (
+        'button-primary-background': $color-primary,
+        'button-primary-background-hover': $color-primary-hover,
+        'button-primary-link-color': $color-white,
+        'button-primary-link-color-hover': $color-white,
+
+        'button-secondary-background': $color-white,
+        'button-secondary-background-hover': $color-primary-hover,
+        'button-secondary-link-color': $color-primary,
+        'button-secondary-link-color-hover': $color-white,
+
+        'button-footer-background': $color-transparent,
+        'button-footer-background-hover': $color-primary-hover,
+        'button-footer-link-color': $color-white,
+        'button-footer-link-color-hover': $color-white,
+
+        'element-link-color': $color-primary,
+        'element-h1-icon-fill': $color-primary,
+
+        'header-background': $color-white,
+        'header-logo-fill': $color-primary,
+        'header-tel-fill': $color-primary,
+
+        'hero-mask-background': $color-gray-opaque,
+        'hero-text-color': $color-white,
+
+        'layout-scroll-background': $color-transparent,
+        'layout-scroll-thumb': $color-gray,
+
+        'section-background-light': $color-white-darker,
+        'section-background-dark': $color-secondary,
+
+        'testimonial-background': $color-white,
+        'testimonial-quote-fill': $color-blue-normal,
+    )
+);
+
+// THEME USAGE
+/*
+.body {
+    @include theme() {
+        background: theme-get('layout-body-background');
+    }    
+}
+*/

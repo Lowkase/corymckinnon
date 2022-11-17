@@ -1,0 +1,32 @@
+// --------------------------------------------------------------------------------
+// MIXINS - SCROLLBAR
+// --------------------------------------------------------------------------------
+@mixin scrollbar($size, $border-radius-sb) {
+    // For Google Chrome
+    &::-webkit-scrollbar {
+        width:  $size;
+        height: $size;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+        @include theme() {
+            background: theme-get('layout-scroll-thumb');
+        }
+
+        border-radius: $border-radius-sb;
+    }
+  
+    &::-webkit-scrollbar-track {
+        @include theme() {
+            background: theme-get('layout-scroll-background');
+        }
+    }
+  
+    // For Internet Explorer
+    & {
+        @include theme() {
+            scrollbar-face-color: theme-get('layout-scroll-thumb');
+            scrollbar-track-color: theme-get('layout-scroll-background');
+        }
+    }
+}

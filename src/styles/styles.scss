@@ -1,0 +1,33 @@
+// --------------------------------------------------------------------------------
+// STYLE - MASTER IMPORT
+//---------------------------------------------------------------------------------
+
+// MIXINS
+@import 'mixins/animate';
+@import 'mixins/font-size';
+@import 'mixins/keyframes';
+@import 'mixins/position';
+@import 'mixins/scrollbar';
+@import 'mixins/text-truncate';
+@import 'mixins/themes';
+@import 'mixins/transform';
+@import 'mixins/transition';
+
+// BASE
+@import 'variables';
+@import 'themes';
+@import 'elements';
+
+// CONTROLS 
+@import '../components/button/button';
+@import '../components/card/card';
+@import '../components/hero/hero';
+@import '../components/testimonial/testimonial';
+
+// TEMPLATE
+@import '../template/layout/layout';
+@import '../template/main/main';
+@import '../template/section/section';
+@import '../template/footer/footer';
+
+// PAGES

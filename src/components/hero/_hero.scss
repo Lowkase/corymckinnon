@@ -1,0 +1,111 @@
+// --------------------------------------------------------------------------------
+// COMPONENTS - HERO
+// --------------------------------------------------------------------------------
+
+// VARIABLES
+$hero-height: 300px;
+$hero-height-mobile: 350px;
+
+.m-hero {
+    @include position-relative-reset();
+    max-height: $hero-height;
+    min-height: $hero-height;
+    min-width: $client-width;
+
+    .image {
+        height: 100%;
+        max-height: $hero-height;
+        min-height: $hero-height;
+        min-width: $client-width;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .mask {
+        @include position(absolute, $top: 0, $left: 0);
+        background: $color-gray-opaque;
+        height: 100%;
+        width: 100%;
+    }
+  
+    @media($bp-smart-header) {
+        max-height: $hero-height-mobile;
+        min-height: $hero-height-mobile;            
+        margin: 0;
+
+        .image {
+            max-height: $hero-height-mobile;
+            min-height: $hero-height-mobile;
+        }
+    }
+
+    .content {
+        @include position(absolute, $top: 0, $right: 0, $bottom: 0, $left: 0);
+        display: grid;
+        grid-gap: $spacing-s;
+        grid-template-columns: auto 1fr;
+        height: fit-content;
+        margin: auto $spacing-l;
+
+        .left {
+            .logo {
+            height: $spacing-xxl;
+            width: $spacing-xxl;
+            }
+        }
+
+        .right {
+            p {
+                margin: 0;
+            }
+
+            .title, .description {
+                @include theme() {
+                    color: theme-get('hero-text-color');
+                }
+            }   
+
+            .title {
+                @include theme() {
+                    color: theme-get('hero-text-color');
+                }
+                font-family: $font-family-title;
+            }   
+
+            .description {
+                font-size: $font-size-l;
+            }
+        }
+
+        @media($bp-smart-tablet) {
+            margin: $spacing-l $spacing-l;
+        }
+
+        @media($bp-tablet) {
+            .left {
+                .logo {
+                    height: $spacing-l;
+                    width: $spacing-l;
+                }
+            }
+            .right {
+                .title {
+                    font-size: 32px;
+                }   
+    
+                .description {
+                    font-size: $font-size-m;
+                }
+            }
+        }
+    }
+    
+    .actions {
+        @include position(absolute, $bottom: $spacing-m, $right: $spacing-m);
+        display: flex;
+        gap: $spacing-s;
+        height: auto;
+        justify-content: right;
+        width: 100%;
+    }
+}

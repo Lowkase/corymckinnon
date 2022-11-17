@@ -1,0 +1,104 @@
+// --------------------------------------------------------------------------------
+// VARIABLES
+// --------------------------------------------------------------------------------
+
+// CLIENT
+// --------------------------------------------------------------------------------
+$client-height:                              720px;
+$client-width:                               360px;
+
+
+// PALETTE
+// --------------------------------------------------------------------------------
+//$darken:                                   darken($color, 10);
+//$lighten:                                  lighten($color, 10);
+
+// TRANSPARENT
+$color-transparent:                          transparent;
+
+// WHITE
+$color-white: 								 #FFFFFF;
+$color-white-darker:                         #F1F1F1;
+
+// BLACK
+$color-black: 								 #000000;
+
+// GREY
+$color-gray:                                 #0B0E11;
+$color-gray-opaque:                          rgba(7, 14, 17, .5);
+
+// BLUE
+$color-blue-normal:                          #0060F8;
+$color-blue-normal-hover:                    #7c00f8;
+$color-blue-light:                           #c0d8ff;
+$color-blue-lighter:                         #e1ecff;
+
+// PRIMARY / SECONDARY
+$color-primary:                              $color-blue-normal;
+$color-primary-hover:                        $color-blue-normal-hover;
+$color-secondary:                            $color-blue-light;
+
+
+// FONTS
+// --------------------------------------------------------------------------------
+$font-family:                                Open Sans, sans-serif;
+$font-family-title:                          Secular One, sans-serif;
+
+$font-weight-light:                          300;
+$font-weight-regular:                        400;
+$font-weight-semibold:                       600;
+$font-weight-extrabold:                      800;
+
+$font-size-s:                                12px;
+$font-size-m:                                16px;
+$font-size-l:                                18px;
+$font-size-xl:                               40px;
+
+
+// SPACING
+// --------------------------------------------------------------------------------
+$spacing-xs:                                 8px;
+$spacing-s:                                  12px;
+$spacing-m:                                  20px;
+$spacing-ml:                                 28px;
+$spacing-l:                                  40px;
+$spacing-xl:                                 48px;
+$spacing-xxl:                                80px;
+
+
+// Z-INDEX
+// --------------------------------------------------------------------------------
+$zi-hide:                                    -9999px;
+$zi-plus-one:								 1;
+$zi-modal: 									 9;
+$zi-popover:                           		 99;
+
+
+// BORDER
+// --------------------------------------------------------------------------------
+$border-color:                               $color-transparent;
+$border-radius:								 4px;
+
+
+// BOX SHADOW
+// --------------------------------------------------------------------------------
+$box-shadow:								rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+
+// TRANSITIONS
+// --------------------------------------------------------------------------------
+$transition-timer-100ms: 					.1s;
+$transition-timer-200ms: 					.2s;
+$transition-easeInOutQuad:  				cubic-bezier(0.455, 0.030, 0.515, 0.955);
+
+
+// BREAKPOINTS
+// --------------------------------------------------------------------------------
+$bp-smart:     								'max-width: 320px';
+$bp-smart-big:     							'max-width: 360px';
+$bp-smart-tablet:     						'max-width: 600px';
+$bp-tablet:          						'max-width: 768px';
+$bp-tablet-landscape:						'max-width: 1024px';
+$bp-desktop:                        		'max-width: 1280px';
+
+$bp-smart-header:     					    'max-width: 480px';

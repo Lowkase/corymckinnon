@@ -1,0 +1,85 @@
+// --------------------------------------------------------------------------------
+//  ELEMENTS
+//---------------------------------------------------------------------------------
+*, *:before, *:after {
+    box-sizing: inherit;
+    text-shadow: none !important;
+}
+
+body {
+    @include position-relative-reset();
+    box-sizing: border-box;
+    //box-sizing: content-box;
+    
+    -webkit-font-smoothing: antialiased; 
+    -webkit-tap-highlight-color: $color-white;
+    -webkit-text-size-adjust: none;
+
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: $font-family;
+    font-size: $font-size-m; // 16px
+    font-weight: $font-weight-regular;
+
+    height: 100%;
+    width: 100%;
+
+    min-height: $client-height;
+    min-width: $client-width;
+}
+
+html {
+    overflow: auto;
+}
+
+.app {
+    @include position-relative-reset();
+    @include theme() {
+        background: theme-get('layout-body-background');
+        color: theme-get('layout-body-color');
+    } 
+
+    height: 100%;
+    width: 100%;
+
+    min-height: $client-height;
+    min-width: $client-width;
+    
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited, a:hover, a:active{
+    @include theme() {
+        color: theme-get('element-link-color');
+    } 
+}
+
+h1, h2 {
+    line-height: 1.2;
+    margin: 0;
+}
+
+h1 {
+    font-size: $font-size-xl;
+}
+
+h2 {
+    font-size: $font-size-l;
+    margin-top: $spacing-xs;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+pre {
+    margin: 0;
+}
