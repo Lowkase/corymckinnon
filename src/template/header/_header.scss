@@ -1,59 +1,39 @@
 // --------------------------------------------------------------------------------
 // LAYOUT - FOOTER
 //---------------------------------------------------------------------------------
-.t-layout header {
+.t-layout main header {
     align-items: center;
-    background: $color-primary;
-	display: grid;
-	grid-gap: $spacing-l;
-	grid-template-columns: auto 1fr;
+    display: flex;
+    gap: $spacing-l;
+    justify-content: space-between;
     padding: $spacing-l $spacing-xxl;
 
     .logo {
-        color: $color-white;
-        font-size: $font-size-l;
+        font-size: $font-size-m;
+        font-weight: $font-weight-extrabold;
         text-decoration: none;
     }
 
-    .linksSmall, .linksLarge {
+    .links {
         display: flex;
         gap: $spacing-xl;
         justify-content: right;
     }
-    .linksSmall {
-        display: none;
-    }
 
     @media($bp-tablet) {
-        padding: $spacing-l $spacing-l;
-        grid-gap: $spacing-m;
-
-        .logo {
-            font-size: $font-size-m;
+        align-items: left;
+        flex-direction: column;
+        gap: $spacing-s;
+        justify-content: left;
+        padding: $spacing-ml $spacing-ml;
+ 
+        .logo, .links {
+            width: 100%;
         }
 
-        .linksLarge {
-            display: none;
+        .links {
+            gap: $spacing-m;
+            justify-content: left;
         }
-        .linksSmall {
-            display: flex;
-            gap: $spacing-l;
-        }  
-    }
-
-    @media($bp-tablet-landscape) {
-        padding: $spacing-l $spacing-xl;
-    }
-
-    @media($bp-tablet) {
-        padding: $spacing-l $spacing-l;
-    }
-
-    @media($bp-smart-tablet) {
-        padding: $spacing-l $spacing-m;
-
-        .linksSmall {
-            gap: $spacing-mml !important;
-        }        
     }
 }

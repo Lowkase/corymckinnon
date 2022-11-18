@@ -4,21 +4,20 @@
 .m-button {
     @include transition (all $transition-timer-200ms $transition-easeInOutQuad);
 
-    color: $color-white;
     cursor: pointer;
     display: flex;
+    font-weight: $font-weight-semibold;
     line-height: $font-size-xl;
     text-decoration: none;
 
     svg {
         display: block;
-        fill: $color-white;
         height: $font-size-m;
         width: $font-size-m;
     }
 }
 
 .m-button:hover {
-    font-weight: $font-weight-extrabold;
+    color: $color-tertiary;
     text-decoration: underline;
 }

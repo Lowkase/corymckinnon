@@ -4,8 +4,8 @@
 .m-card {
     @include transition (all $transition-timer-200ms $transition-easeInOutQuad);
 
-    background: $color-white;
-    border-radius: 0;
+    background: $color-blue-lightest;
+    border-radius: 3px;
     box-shadow: $box-shadow;
     color: $color-black;
     padding: $spacing-l;
@@ -24,9 +24,8 @@
 }
 
 .m-card:hover {
-    background: $color-indigo-light;
     box-shadow: $box-shadow-hover;
-    transform: translate(2px, 2px);
+    transform: $transform-card-hover;
 }
 
 // CARD GRID

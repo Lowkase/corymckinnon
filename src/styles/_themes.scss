@@ -1,7 +1,26 @@
 // --------------------------------------------------------------------------------
 // THEMES
-//     - Abstract the colors defined in variables.scss to a higher level meaning
+// Abstract the colors defined in variables.scss
 // --------------------------------------------------------------------------------
+
+// PRIMARY / SECONDARY / TERTIARY
+$color-primary:                 $color-blue;
+$color-secondary:               $color-blue-lighter;
+$color-tertiary:                $color-oragne;
+
+// TEXT
+$color-text:                    $color-gray;
+
+// BACKGROUND
+$color-background-priarmy:      $color-white-darker;
+$color-background-secondary:    $color-blue-lighter;
+
+
+
+
+// MOVE THE THEME STUFF INTO VARIABLES
+
+
 $themes: (
     theme: (
         'element-link-color': $color-transparent,

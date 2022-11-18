@@ -4,10 +4,14 @@
 .m-highlight {
     @include transition (all $transition-timer-200ms $transition-easeInOutQuad);
 
-    background: $color-indigo-light;
+    background: $color-secondary;
     color: $color-black;
     font-weight: $font-weight-semibold;
     padding: $spacing-m;
+}
+
+.m-hightlight-invert {
+    background: $color-background-priarmy
 }
 
 // HIGHLIGHT GRID

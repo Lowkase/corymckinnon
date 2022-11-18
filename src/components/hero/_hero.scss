@@ -2,7 +2,25 @@
 // COMPONENTS - HERO
 // --------------------------------------------------------------------------------
 .m-hero {
+    display: grid;
+	grid-gap: $spacing-l;
+	grid-template-columns: 1fr 1fr;
+
+    svg {
+        height: auto;
+        width: 100%;
+    }
+
     h1 {
         margin-bottom: $spacing-xs;
+    }
+
+    @media($bp-smart-tablet) {
+        grid-template-columns: 1fr;
+        text-align: center;
+
+        svg {
+            max-width: 300px;
+        }  
     }
 }

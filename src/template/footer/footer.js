@@ -10,25 +10,25 @@ const Footer = (props) => {
         <div class="links">
             <ButtonEmail
                 mailAddress="cory.mckinnon@gmail.com"
-                scheme="m-button-header"
+                scheme="m-button-light"
                 text="Email"
             >
             </ButtonEmail>
             <ButtonExternal
                 link="https://www.linkedin.com/in/cory-mckinnon-62337a3/"
-                scheme="m-button-header"
+                scheme="m-button-light"
                 text="Linked In"
             >
             </ButtonExternal>
             <ButtonExternal
                 link="https://dribbble.com/CoryMckinnon"
-                scheme="m-button-header"
+                scheme="m-button-light"
                 text="Dribbble"
             >
             </ButtonExternal>
             <ButtonExternal
                 link="https://docs.google.com/document/d/1RcVqvD-w9cyuay0HiPRBK6v_2gBLfZzPrLQMAAq5GTg/edit?usp=sharing"
-                scheme="m-button-header"
+                scheme="m-button-light"
                 text="Resume"
             >
             </ButtonExternal>

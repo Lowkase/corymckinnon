@@ -2,19 +2,28 @@
 // COMPONENTS - BACK
 // --------------------------------------------------------------------------------
 .m-back {
-    @include transition (all $transition-timer-200ms $transition-easeInOutQuad);
-
+    align-items: center;
     color: $color-black;
     display: flex;
+    padding: 0 $spacing-xxl $spacing-l $spacing-xxl;
     text-decoration: none;
 
     svg {
-        height: 20px;
-        margin-right: 8px;
-        width: 20px;
+        height: $spacing-ms;
+        margin-right: $spacing-xs;
+        width: $spacing-ms;
     }
+
+    @media($bp-tablet) {
+        padding: 0 $spacing-ml $spacing-l $spacing-ml;
+    }
+
 }
 
 .m-back:hover {
-    font-weight: $font-weight-semibold;
+    color: $color-tertiary;
+
+    svg {
+        fill: $color-tertiary;
+    }
 }

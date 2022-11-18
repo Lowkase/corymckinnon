@@ -14,7 +14,7 @@ const Layout = (props) => {
                 <meta name="description" content="" />
                 <meta http-equiv="content-language" content="en-us" />
                 <link rel="icon" href={Favicon} sizes="any" />
-                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito" />
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:thin,light,regular,bold,black" />
             </Helmet>
             <div id="theme" className="theme">
                 <div className="app t-layout">

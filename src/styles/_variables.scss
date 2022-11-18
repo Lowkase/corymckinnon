@@ -4,61 +4,58 @@
 
 // CLIENT
 // --------------------------------------------------------------------------------
-$client-height:                              720px;
-$client-width:                               360px;
-$client-width-max:                           1024px;
+$client-height:                             720px;
+$client-width:                              360px;
+$client-width-max:                          1024px;
 
 
 // PALETTE
 // --------------------------------------------------------------------------------
-//$darken:                                   darken($color, 10);
-//$lighten:                                  lighten($color, 10);
+//$darken:                                  darken($color, 10);
+//$lighten:                                 lighten($color, 10);
 
 
 // TRANSPARENT
-$color-transparent:                          transparent;
+$color-transparent:                         transparent;
 
 // WHITE
-$color-white: 								 #FFFFFF;
+$color-white: 								#FFFFFF;
+$color-white-darker:                        #FFFFFE;
 
 // BLACK
-$color-black: 								 #000000;
+$color-black: 								#000000;
 
 // GREY
-$color-gray:                                 #0B0E11;
+$color-gray:                                #2b2c34;
 
 // INDIGO
-$color-indigo-dark:                          #364FC7;
-$color-indigo-light:                         #EDF2FF;
+$color-indigo-dark:                         #364FC7;
+$color-indigo-light:                        #EDF2FF;
 
-// PRIMARY / SECONDARY
-$color-primary:                              $color-indigo-dark;
-$color-secondary:                            $color-indigo-light;
+// BLUE
+$color-blue:                                #6246ea;
+$color-blue-lighter:                        #d1d1e9;
+$color-blue-lightest:                       #f3f3ff;
 
-
-
-
-
-
-
-
-
+// ORAGNE
+$color-oragne:                              #e45874;
 
 
 // FONTS
 // --------------------------------------------------------------------------------
-$font-family:                                Nunito, sans-serif;
+$font-family:                                Lato, sans-serif;
 
+$font-weight-thing:                          300;
 $font-weight-light:                          300;
 $font-weight-regular:                        400;
-$font-weight-semibold:                       600;
-$font-weight-extrabold:                      800;
+$font-weight-semibold:                       700;
+$font-weight-extrabold:                      900;
 
 $font-size-xs:                               12px;
 $font-size-s:                                16px;
 $font-size-m:                                20px;
 $font-size-l:                                24px;
-$font-size-xl:                               32px;
+$font-size-xl:                               44px;
 
 
 // SPACING
@@ -90,8 +87,13 @@ $border-radius:								 4px;
 
 // BOX SHADOW
 // --------------------------------------------------------------------------------
-$box-shadow:								0px 5px 14px rgba(0, 0, 0, 0.2);
-$box-shadow-hover:							0px 6px 16px rgba(0, 0, 0, 0.3);
+$box-shadow:								rgb(0, 0, 0) 0px 2px 10px -5px;
+$box-shadow-hover:							rgb(0, 0, 0) 0px 5px 15px -10px;
+
+
+// TRANSFORM
+// --------------------------------------------------------------------------------
+$transform-card-hover: 					    matrix(1, 0 ,0 ,1, 0,-4);
 
 
 // TRANSITIONS
@@ -104,7 +106,7 @@ $transition-easeInOutQuad:  				cubic-bezier(0.455, 0.030, 0.515, 0.955);
 // BREAKPOINTS
 // --------------------------------------------------------------------------------
 $bp-smart:     								'max-width: 320px';
-$bp-smart-tablet:     						'max-width: 560px';
+$bp-smart-tablet:     						'max-width: 600px';
 $bp-tablet:          						'max-width: 768px';
 $bp-tablet-landscape:						'max-width: 1024px';
 $bp-desktop:                        		'max-width: 1280px';
