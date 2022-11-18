@@ -2,29 +2,58 @@
 // LAYOUT - FOOTER
 //---------------------------------------------------------------------------------
 .t-layout header {
+    align-items: center;
     background: $color-primary;
-    color: $color-white;
+	display: grid;
+	grid-gap: $spacing-l;
+	grid-template-columns: auto 1fr;
     padding: $spacing-l $spacing-xxl;
 
-    @media($bp-smart-tablet) {
-        padding: $spacing-l;
-    }
-
-
     .logo {
+        color: $color-white;
         font-size: $font-size-l;
+        text-decoration: none;
     }
 
-    .content {
+    .linksSmall, .linksLarge {
         display: flex;
         gap: $spacing-xl;
-        justify-content: left;
-        margin-bottom: $spacing-l;
+        justify-content: right;
+    }
+    .linksSmall {
+        display: none;
+    }
 
-        @media($bp-tablet) {
-            align-items: center;
-            flex-direction: column;
-            gap: $spacing-m;
+    @media($bp-tablet) {
+        padding: $spacing-l $spacing-l;
+        grid-gap: $spacing-m;
+
+        .logo {
+            font-size: $font-size-m;
         }
+
+        .linksLarge {
+            display: none;
+        }
+        .linksSmall {
+            display: flex;
+            gap: $spacing-l;
+        }  
+    }
+
+    @media($bp-tablet-landscape) {
+        padding: $spacing-l $spacing-xl;
+    }
+
+    @media($bp-tablet) {
+        padding: $spacing-l $spacing-l;
+    }
+
+    @media($bp-smart-tablet) {
+        padding: $spacing-l $spacing-m;
+
+        .linksSmall {
+            gap: $spacing-mml !important;
+        }        
     }
 }

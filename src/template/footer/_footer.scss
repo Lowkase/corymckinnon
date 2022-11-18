@@ -4,27 +4,24 @@
 .t-layout footer {
     background: $color-black;
     color: $color-white;
-    padding: $spacing-xxl;
+    padding: $spacing-l $spacing-xxl;
 
-    @media($bp-smart-tablet) {
-        padding: $spacing-l;
-    }
-
-    .content {
+    .links {
         display: flex;
         gap: $spacing-xl;
         justify-content: center;
-        margin-bottom: $spacing-l;
+        margin-bottom: $spacing-m;
 
-        @media($bp-tablet) {
+        @media($bp-smart-tablet) {
             align-items: center;
             flex-direction: column;
             gap: $spacing-m;
+            margin-bottom: $spacing-l;
         }
     }
 
     .copyright {
-        font-size: $font-size-s;
+        font-size: $font-size-xs;
         text-align: center;
     }
 }

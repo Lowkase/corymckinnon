@@ -19,8 +19,14 @@
 @import 'elements';
 
 // CONTROLS 
+@import '../components/back/back';
 @import '../components/button/button';
 @import '../components/card/card';
+@import '../components/figure/figure';
+@import '../components/hero/hero';
+@import '../components/highlight/highlight';
+@import '../components/project-title/project-title';
+@import '../components/stats/stats';
 
 // TEMPLATE
 @import '../template/layout/layout';

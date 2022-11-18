@@ -54,13 +54,7 @@ html {
     padding: 0;
 }
 
-a:link, a:visited, a:hover, a:active{
-    @include theme() {
-        color: theme-get('element-link-color');
-    } 
-}
-
-h1, h2 {
+h1, h2, h3, h4 {
     line-height: 1.2;
     margin: 0;
 }
@@ -71,7 +65,20 @@ h1 {
 
 h2 {
     font-size: $font-size-l;
-    margin-top: $spacing-xs;
+}
+
+h3 {
+    font-size: $font-size-m;
+    font-weight: $font-weight-regular;
+}
+
+h4 {
+    font-size: $font-size-s;
+    font-weight: $font-weight-regular;
+}
+
+.h-bold {
+    font-weight: $font-weight-semibold;
 }
 
 ul {

@@ -1,0 +1,20 @@
+// --------------------------------------------------------------------------------
+// COMPONENTS - BACK
+// --------------------------------------------------------------------------------
+.m-back {
+    @include transition (all $transition-timer-200ms $transition-easeInOutQuad);
+
+    color: $color-black;
+    display: flex;
+    text-decoration: none;
+
+    svg {
+        height: 20px;
+        margin-right: 8px;
+        width: 20px;
+    }
+}
+
+.m-back:hover {
+    font-weight: $font-weight-semibold;
+}

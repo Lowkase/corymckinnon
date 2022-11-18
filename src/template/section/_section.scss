@@ -1,20 +1,43 @@
 // --------------------------------------------------------------------------------
 // LAYOUT - SECTION
 //---------------------------------------------------------------------------------
-.t-layout main article {
-    section {
-        background: $color-white;
-        padding: $spacing-xxl $spacing-l;
-    }
+.section {
+    max-width: $client-width-max;
+    margin: 0 auto;
 
-    @media($bp-tablet-landscape) {
-        section {
-            padding: $spacing-xl $spacing-xl;
-        }
+    padding-bottom: $spacing-xxl;
+    padding-top: $spacing-xxl;
+
+    padding-left: $spacing-xxl;
+    padding-right: $spacing-xxl;
+}
+
+.section-bottom-xxl {
+    padding-top: 0;
+}
+
+.section-l {
+    padding-bottom: $spacing-l;
+    padding-top: $spacing-l;
+}
+
+@media($bp-tablet-landscape) {
+    .section {
+        padding-left: $spacing-xl;
+        padding-right: $spacing-xl;
     }
-    @media($bp-tablet) {
-        section {
-            padding: $spacing-l $spacing-l;
-        }
+}
+
+@media($bp-tablet) {
+    .section {
+        padding-left: $spacing-l;
+        padding-right: $spacing-l;
+    }
+}
+
+@media($bp-smart-tablet) {
+    .section {
+        padding-left: $spacing-m;
+        padding-right: $spacing-m;        
     }
 }

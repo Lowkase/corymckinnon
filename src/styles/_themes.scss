@@ -4,31 +4,9 @@
 // --------------------------------------------------------------------------------
 $themes: (
     theme: (
-        'button-header-background': $color-transparent,
-        'button-header-background-hover': $color-white,
-        'button-header-link-color': $color-white,
-        'button-header-link-color-hover': $color-black,
-
-        'button-footer-background': $color-transparent,
-        'button-footer-background-hover': $color-primary-hover,
-        'button-footer-link-color': $color-white,
-        'button-footer-link-color-hover': $color-white,
-
-        'element-link-color': $color-primary,
-        'element-h1-icon-fill': $color-primary,
-
-        'header-background': $color-white,
-        'header-logo-fill': $color-primary,
-        'header-tel-fill': $color-primary,
-
-        'hero-mask-background': $color-gray-opaque,
-        'hero-text-color': $color-white,
-
+        'element-link-color': $color-transparent,
         'layout-scroll-background': $color-transparent,
         'layout-scroll-thumb': $color-gray,
-
-        'section-background-light': $color-white-darker,
-        'section-background-dark': $color-secondary
     )
 );
 

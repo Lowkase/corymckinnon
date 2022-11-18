@@ -4,34 +4,30 @@ import PropTypes from "prop-types";
 // BUTTON EXTERNAL
 const ButtonExternal = (props) => {
     return (
-        <div class="m-button-con">
-            <a 
-                className={`m-button ${ props.scheme }`} 
-                href={props.link}
-                target="_blank"
-                rel="noreferrer" 
-                tabIndex={props.tabIndex}>
-                <span className="text">{props.text}</span>
-            </a>
-        </div>
+        <a
+            className="m-button"
+            href={props.link}
+            rel="noreferrer"
+            target="_blank"
+        >
+            { props.svgShow ? (
+                props.svgSvg
+            ) : (
+                props.text
+            )}            
+        </a>
     );
 }
 
 ButtonExternal.propTypes = {
     link: PropTypes.string,
-    scheme: PropTypes.string,
-    tabIndex: PropTypes.string,
     text: PropTypes.string,
+    svgShow: PropTypes.bool,
+    svgSvg: PropTypes.any,
 };
 
-// SCHEME = className
-// PRIMARY = BLUE
-// SECONDARY = WHITE
-// FOOTER = TRANSPARENT
 ButtonExternal.defaultProps = {
     link: '',
-    scheme: 'PRIMARY',
-    tabIndex: '0',
     text: '',
 };
 

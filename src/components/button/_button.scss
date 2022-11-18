@@ -1,69 +1,24 @@
 // --------------------------------------------------------------------------------
 // COMPONENTS - BUTTON
 // --------------------------------------------------------------------------------
-.m-button-con {
-    display: flex;
-}
-
 .m-button {
     @include transition (all $transition-timer-200ms $transition-easeInOutQuad);
 
-    border: 0;
-    border-radius: $border-radius;
+    color: $color-white;
     cursor: pointer;
     display: flex;
-    font-weight: $font-weight-semibold;
-    margin: 0;
-    outline: none;
-    padding: $spacing-xs $spacing-s;
-    text-align: center;
+    line-height: $font-size-xl;
     text-decoration: none;
 
-    .icon {
+    svg {
         display: block;
-        height: 22px;
-        margin-right: $spacing-xs;
-        width: 22px;
-    }
-
-    .text {
-        display: block;
-        line-height: $spacing-m;
-    }
-
-    @media($bp-smart-header) {
-        .icon {
-            margin-right: 0;
-        }
-
-        .text {
-            display: none;
-        }
+        fill: $color-white;
+        height: $font-size-m;
+        width: $font-size-m;
     }
 }
 
-.m-button-header {
-    @include theme() {
-        color: theme-get('button-header-link-color') !important;
-        background: theme-get('button-header-background');
-    }
-}
-.m-button-header:hover {
-    @include theme() {
-        color: theme-get('button-header-link-color-hover') !important;
-        background: theme-get('button-header-background-hover');
-    } 
-}
-
-.m-button-footer {
-    @include theme() {
-        color: theme-get('button-footer-link-color') !important;
-        background: theme-get('button-footer-background');
-    }
-}
-.m-button-footer:hover {
-    @include theme() {
-        color: theme-get('button-footer-link-color-hover') !important;
-        background: theme-get('button-footer-background-hover');
-    } 
+.m-button:hover {
+    font-weight: $font-weight-extrabold;
+    text-decoration: underline;
 }

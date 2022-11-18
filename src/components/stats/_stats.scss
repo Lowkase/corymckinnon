@@ -1,0 +1,16 @@
+// --------------------------------------------------------------------------------
+// COMPONENTS - STATS
+// --------------------------------------------------------------------------------
+.m-stats {
+    display: flex;
+    gap: $spacing-l;
+
+    .stat div:first-child {
+        font-weight: $font-weight-semibold;
+    }
+
+    @media($bp-tablet) {
+        flex-direction: column;
+        gap: $spacing-s;
+    }
+}

@@ -7,28 +7,28 @@ import ButtonExternal from "../../components/button/buttonExternal"
 const Footer = (props) => {
   return (
     <footer>
-        <div class="content">
+        <div class="links">
             <ButtonEmail
                 mailAddress="cory.mckinnon@gmail.com"
-                scheme="m-button-footer"
+                scheme="m-button-header"
                 text="Email"
             >
             </ButtonEmail>
             <ButtonExternal
-                link="Linked In"
-                scheme="m-button-footer"
+                link="https://www.linkedin.com/in/cory-mckinnon-62337a3/"
+                scheme="m-button-header"
                 text="Linked In"
             >
             </ButtonExternal>
             <ButtonExternal
-                link="Dribbble"
-                scheme="m-button-footer"
+                link="https://dribbble.com/CoryMckinnon"
+                scheme="m-button-header"
                 text="Dribbble"
             >
             </ButtonExternal>
             <ButtonExternal
-                link="Resume"
-                scheme="m-button-footer"
+                link="https://docs.google.com/document/d/1RcVqvD-w9cyuay0HiPRBK6v_2gBLfZzPrLQMAAq5GTg/edit?usp=sharing"
+                scheme="m-button-header"
                 text="Resume"
             >
             </ButtonExternal>

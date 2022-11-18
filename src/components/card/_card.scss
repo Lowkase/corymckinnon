@@ -1,22 +1,32 @@
 // --------------------------------------------------------------------------------
 // COMPONENTS - CARD
 // --------------------------------------------------------------------------------
-
-// CARD
 .m-card {
+    @include transition (all $transition-timer-200ms $transition-easeInOutQuad);
+
     background: $color-white;
-    border-radius: $spacing-s;
+    border-radius: 0;
     box-shadow: $box-shadow;
+    color: $color-black;
     padding: $spacing-l;
+    text-decoration: none;
 
-    svg {
-        height: $spacing-xl;
-        width: $spacing-xl;
+    img {
+        display: block;
+        height: auto;
+        margin-bottom: $spacing-s;
+        width: 100%;
     }
 
-    .title {
-        font-family: $font-family-title;
+    h3, h4 {
+        text-align: center;
     }
+}
+
+.m-card:hover {
+    background: $color-indigo-light;
+    box-shadow: $box-shadow-hover;
+    transform: translate(2px, 2px);
 }
 
 // CARD GRID
@@ -41,12 +51,12 @@
     grid-column-gap: $spacing-l;
     grid-template-columns: 1fr 1fr 1fr;
 }
-@media($bp-tablet-landscape) {
+@media($bp-tablet) {
     .m-card-grid-3 {
         grid-template-columns: 1fr;
     } 
 }
-@media($bp-tablet) {
+@media($bp-smart-tablet) {
     .m-card-grid-2 {
         grid-template-columns: 1fr;
     }

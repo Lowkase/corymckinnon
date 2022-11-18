@@ -6,6 +6,7 @@
 // --------------------------------------------------------------------------------
 $client-height:                              720px;
 $client-width:                               360px;
+$client-width-max:                           1024px;
 
 
 // PALETTE
@@ -37,16 +38,7 @@ $color-secondary:                            $color-indigo-light;
 
 
 
-$color-white-darker:                         #F1F1F1;
-$color-gray-opaque:                          rgba(7, 14, 17, .5);
-$color-gray:                                 #0B0E11;
-// BLUE
-$color-blue-normal:                          #0060F8;
-$color-blue-normal-hover:                    #7c00f8;
-$color-blue-light:                           #c0d8ff;
-$color-blue-lighter:                         #e1ecff;
-$font-family-title:                          Nunito, sans-serif;
-$color-primary-hover:                        $color-indigo-dark;
+
 
 
 
@@ -73,7 +65,9 @@ $font-size-xl:                               32px;
 // --------------------------------------------------------------------------------
 $spacing-xs:                                 8px;
 $spacing-s:                                  12px;
+$spacing-ms:                                 16px;
 $spacing-m:                                  20px;
+$spacing-mml:                                24px;
 $spacing-ml:                                 28px;
 $spacing-l:                                  40px;
 $spacing-xl:                                 48px;
@@ -97,6 +91,7 @@ $border-radius:								 4px;
 // BOX SHADOW
 // --------------------------------------------------------------------------------
 $box-shadow:								0px 5px 14px rgba(0, 0, 0, 0.2);
+$box-shadow-hover:							0px 6px 16px rgba(0, 0, 0, 0.3);
 
 
 // TRANSITIONS
@@ -109,10 +104,7 @@ $transition-easeInOutQuad:  				cubic-bezier(0.455, 0.030, 0.515, 0.955);
 // BREAKPOINTS
 // --------------------------------------------------------------------------------
 $bp-smart:     								'max-width: 320px';
-$bp-smart-big:     							'max-width: 360px';
-$bp-smart-tablet:     						'max-width: 600px';
+$bp-smart-tablet:     						'max-width: 560px';
 $bp-tablet:          						'max-width: 768px';
 $bp-tablet-landscape:						'max-width: 1024px';
 $bp-desktop:                        		'max-width: 1280px';
-
-$bp-smart-header:     					    'max-width: 480px';

@@ -1,12 +1,21 @@
 import React from 'react';
+import PropTypes from "prop-types";
 
-// CONTENT
-const Content = (props) => {
+// Section
+const Section = (props) => {
     return (
-        <article>
+        <div className={"section " + props.className}>
             { props.children }
-        </article>
+        </div>
     );
 }
 
-export default Content
+Section.propTypes = {
+    className: PropTypes.string,
+};
+
+Section.defaultProps = {
+    className: '',
+};
+
+export default Section
