@@ -4,14 +4,25 @@
 .m-highlight {
     @include transition (all $transition-timer-200ms $transition-easeInOutQuad);
 
+    align-items: center;
     background: $color-secondary;
-    color: $color-black;
-    font-weight: $font-weight-semibold;
-    padding: $spacing-m;
+    color: $color-text;
+    display: flex;
+    font-size: 18px;
+    font-weight: $font-weight-regular;
+    gap: 0;
+    justify-content: center;
+    padding: $spacing-l;
+    margin-bottom: $spacing-m;
+    text-align: center;
 }
 
 .m-hightlight-invert {
     background: $color-background-priarmy
+}
+
+.m-highlight-last {
+    margin-bottom: 0 !important;
 }
 
 // HIGHLIGHT GRID
@@ -22,19 +33,19 @@
 }
   
 .m-highlight-grid-row {
-    margin-bottom: $spacing-l;
+    margin-bottom: $spacing-m;
 }
   
 .m-highlight-grid-2 {
     display: grid;
     grid-column-gap: $spacing-m;
-    grid-row-gap: $spacing-m;
+    grid-row-gap: 0;
     grid-template-columns: 1fr 1fr;
 }
 .m-highlight-grid-3 {
     display: grid;
     grid-column-gap: $spacing-m;
-    grid-row-gap: $spacing-m;
+    grid-row-gap: 0;
     grid-template-columns: 1fr 1fr 1fr;
 }
 @media($bp-tablet) {

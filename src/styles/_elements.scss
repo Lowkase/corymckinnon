@@ -93,6 +93,12 @@ h4 {
     font-weight: $font-weight-semibold;
 }
 
+p {
+    font-size: 18px;
+    font-weight: $font-weight-regular;
+    letter-spacing: .05rem;    
+}
+
 ul {
     list-style-type: none;
     margin: 0;

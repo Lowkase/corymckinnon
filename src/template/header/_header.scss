@@ -14,6 +14,10 @@
         text-decoration: none;
     }
 
+    .logo:hover {
+        color: $color-secondary;
+    }
+
     .links {
         display: flex;
         gap: $spacing-xl;

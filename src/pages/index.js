@@ -42,30 +42,31 @@ const IndexPage = (props) => {
                         {/* ROW 1 */}
                         <div className="m-card-grid-row m-card-grid-2">
                             <a className="m-card" href="/1">
-                                <img src={'/ownly.png'} alt="Ownly Sample Designs" />
+                                <img src={'/ownly-1.png'} alt="Ownly Sample Designs" />
                                 <h3 class="h-bold">Build and Price Redesign</h3>
                                 <h4>Ownly</h4>
                             </a>
-                            <a className="m-card" href="/1">
-                                <img src={'/ownly.png'} alt="Ownly Sample Designs" />
-                                <h3 class="h-bold">Build and Price Redesign</h3>
-                                <h4>Ownly</h4>
+                            <a className="m-card" href="/2">
+                                <img src={'/twitter-1.jpg'} alt="High fidelity design of Twitter Spam Violation Workbenchs" />
+                                <h3 class="h-bold">Twitter Spam Violation Workbench</h3>
+                                <h4>Innodata</h4>
                             </a>
                         </div>
 
-                        {/* ROW 2 */}
+                        {/* ROW 2 
                         <div className="m-card-grid-row m-card-grid-2">
-                        <a className="m-card" href="/1">
+                        <a className="m-card" href="/3">
                                 <img src={'/ownly.png'} alt="Ownly Sample Designs" />
                                 <h3 class="h-bold">Build and Price Redesign</h3>
                                 <h4>Ownly</h4>
                             </a>
-                            <a className="m-card" href="/1">
+                            <a className="m-card" href="/4">
                                 <img src={'/ownly.png'} alt="Ownly Sample Designs" />
                                 <h3 class="h-bold">Build and Price Redesign</h3>
                                 <h4>Ownly</h4>
                             </a>
                         </div>
+                        */}
                     </section>
                 </div>
             </Section>

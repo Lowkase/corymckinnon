@@ -4,12 +4,16 @@
 .m-card {
     @include transition (all $transition-timer-200ms $transition-easeInOutQuad);
 
-    background: $color-blue-lightest;
+    align-items: center;
     border-radius: 3px;
     box-shadow: $box-shadow;
     color: $color-black;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
     padding: $spacing-l;
     text-decoration: none;
+    text-align: center;
 
     img {
         display: block;
@@ -24,6 +28,7 @@
 }
 
 .m-card:hover {
+    background: $color-blue-lightest;
     box-shadow: $box-shadow-hover;
     transform: $transform-card-hover;
 }
@@ -51,6 +56,9 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 @media($bp-tablet) {
+    .m-card-grid-2 {
+        grid-template-columns: 1fr;
+    }    
     .m-card-grid-3 {
         grid-template-columns: 1fr;
     } 
