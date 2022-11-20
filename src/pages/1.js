@@ -100,14 +100,14 @@ const IndexPage = (props) => {
                     <h2>Process</h2>
                     <p>
                         We didn&#39;t have a clear picture of all the features, flows and rules associated with the current Build and 
-                        Price. We took a bit of time and mapped the system and created an initial source of truth that the entire 
-                        time could reference as a baseline.
+                        Price. We took a bit of time to map the system and create an initial source of truth that the entire 
+                        team could reference as a baseline.
                     </p>
                     <p>
                         We were intent on studying real-life experiences with Build and Price so we started watching many Hotjar 
                         sessions. It quickly became apparent that users were spending most of their time finding a new home type 
                         and then exploring customization options. We needed to concentrate on these two experiences in order to 
-                        produce to meet our design goals.
+                        meet our design goals.
                     </p>
                     <p>
                         After meeting with a few of our builder customers we were able to prioritize two new features in the 
@@ -133,7 +133,7 @@ const IndexPage = (props) => {
                     </div>  
                     <p>
                         We needed to step back and do a bit more research on how the Build and Price steps were sequenced and laid out.
-                        We looked at other manufacturers of "big ticket" and landed on how the car manufacturing
+                        We looked at other manufacturers of "big ticket" purchases and landed on how the car manufacturing
                         sector approached Build and Price. We parsed through many car Build and Price experiences and found 
                         commonalities that could be applied to the Ownly solution.
                     </p>
@@ -159,30 +159,30 @@ const IndexPage = (props) => {
                     </p>
                     <p>
                         We released the new flows to production and conducted an A/B test of conversion rates between the new and old 
-                        designs. The results were concrete, the conversion rates had increased by 25%. The vast majority of the users 
+                        designs. The results were concrete, the conversion rates had increased by 24%. The vast majority of the users 
                         were not getting confused or lost in the flow and were using the new features with ease. Engagement of the 
-                        customization portion of the solution had increased by 35%.
+                        customization portion of the solution had increased by 32%.
                     </p>
                     <div className="m-highlight-grid">
                         <div className="m-highlight-grid-row m-highlight-grid-3">
-                            <div className="m-highlight m-hightlight-invert">Conversion rates increased by 25%</div> 
-                            <div className="m-highlight m-hightlight-invert">Customization engagement increased by 35%</div> 
+                            <div className="m-highlight m-hightlight-invert">Conversion rates increased by 24%</div> 
+                            <div className="m-highlight m-hightlight-invert">Customization engagement increased by 32%</div> 
                         </div> 
                     </div>
                     <p></p>
                     <h2>Takeaways</h2>
                     <p></p>
                     <div className="m-highlight m-hightlight-invert">
-                        Small seeded startups don’t have time to document when pushing out initial features. Mapping out the Build 
+                        Small seeded startups don&#39;t have time to document when pushing out initial features. Mapping out the Build 
                         and Price flow, documenting the rules and features and producing a baseline proved to be invaluable for the 
                         remainder of the project.
                     </div>  
                     <div className="m-highlight m-hightlight-invert">
                         Seeking out other “big ticket” purchase examples really helped us to land on navigation and layout approaches 
-                        which helped us to overcome the confusion of initial Build and Price experience.
+                        which helped us to overcome the confusion of our initial Build and Price experience.
                     </div>  
                     <div className="m-highlight m-hightlight-invert">
-                        Testing ideas early and frequently meant we didn&#39;t fall down many design rabbit holes.
+                        Testing ideas early and frequently meant we didn&#39;t fall down design rabbit holes.
                     </div>  
                 </div>
             </Section>

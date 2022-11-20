@@ -183,7 +183,7 @@ const IndexPage = (props) => {
                         team felt invested in the changes to the workbench which ultimately helped to prove its success in production.
                     </div>  
                     <div className="m-highlight m-hightlight-invert">
-                        Watching videos of user interactions is an invaluable way to understand flow and point points.
+                        Watching videos of user interactions is an invaluable way to understand flow and pain points.
                     </div>  
                     <div className="m-highlight m-hightlight-invert">
                         Twitter moderators see some truly harmful things. I wish we could have designed a way to mask some of the harmful 
