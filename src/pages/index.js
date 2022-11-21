@@ -74,7 +74,7 @@ const IndexPage = (props) => {
             <Section className="section-secondary">
                 <div className="container">
                     <h1>Greetings</h1>
-                    <div className="section-2-col">
+                    <div className="m-2col">
                         <div>
                             <h3>
                                 In my former life, I was a developer for many years until I was drawn to the design side of the house 
