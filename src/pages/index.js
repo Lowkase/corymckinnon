@@ -77,7 +77,7 @@ const IndexPage = (props) => {
                     <div className="section-2-col">
                         <div>
                             <h3>
-                            In my former life, I was a developer for many years until I was drawn to the design side of the house in 2014 by some amazing mentors at 
+                            In my former life, I was a developer for many years until I was drawn to the design side of the house in 2014 by some amazing mentors at  
                             <a href="https://www.macadamian.com/" target="_blank" rel="noreferrer">Macadamian</a>.
                             </h3>
                             <h3>
