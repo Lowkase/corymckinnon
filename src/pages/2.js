@@ -84,7 +84,7 @@ const IndexPage = (props) => {
                         How can the Twitter Spam Violation Workbench be improved to increase moderator SARs scores, consistency and quality?
                     </div>                     
                     <p>
-                        The team agreed upon a couple of KPIs in order to measure success and then we hit the ground running.
+                        The team agreed on a couple of KPIs to measure success and then we hit the ground running.
                     </p>
                     <div className="m-highlight-grid m-highlight-last">
                         <div className="m-highlight-grid-row m-highlight-grid-3">
@@ -111,7 +111,7 @@ const IndexPage = (props) => {
                     <p>
                         The videos exposed many pain points that inhibited the moderators from producing faster SAR scores. Moderators used many 
                         different browser  tabs to view Tweets, user accounts, keyword searches, and to translate text into their native languages. 
-                        Moderators where spending a lot of time copying and pasting text between browser tabs. We went back to the Twitter team and 
+                        Moderators were spending a lot of time copying and pasting text between browser tabs. We went back to the Twitter team and 
                         confirmed that the pain points were valid and that addressing them would help to increase 
                         SARs scores. 
                     </p>
@@ -150,7 +150,7 @@ const IndexPage = (props) => {
                     </p>
                     <figure className="m-figure">
                         <img src={'/twitter-7.jpg'} alt="High fidelity wireframe, very close" />
-                        <figcaption>High fidelity wireframe, very close</figcaption>
+                        <figcaption>High-fidelity wireframe, very close</figcaption>
                     </figure>
                 </div>
             </Section>

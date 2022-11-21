@@ -77,18 +77,16 @@ const IndexPage = (props) => {
                     <div className="section-2-col">
                         <div>
                             <h3>
-                                In a former life I was a developer for many years until I was drawn to the design side of 
-                                the house in 2014 by some amazing mentors at <a href="https://www.macadamian.com/" target="_blank" rel="noreferrer">Macadamian</a>.
+                            In my former life, I was a developer for many years until I was drawn to the design side of the house in 2014 by some amazing mentors at 
+                            <a href="https://www.macadamian.com/" target="_blank" rel="noreferrer">Macadamian</a>.
                             </h3>
                             <h3>
-                                Previously, I led the design efforts for <a href="https://theownly.io/" target="_blank" rel="noreferrer">Ownly</a>, a burgeoning prop tech, <a href="https://https://innodata.com//" target="_blank" rel="noreferrer">Innodata</a>, a leader in ML/AI, <a href="https://solink.com/" target="_blank" rel="noreferrer">Solink</a>, advanced video surveillance for small business and <a href="https://fusebill.com/" target="_blank" rel="noreferrer">Fusebill</a>, a fin tech concentrating on subscriptoin billing.
+                                Previously, I led the design efforts for <a href="https://theownly.io/" target="_blank" rel="noreferrer">Ownly</a>, a burgeoning prop tech, <a href="https://https://innodata.com//" target="_blank" rel="noreferrer">Innodata</a>, a leader in ML/AI, <a href="https://solink.com/" target="_blank" rel="noreferrer">Solink</a>, advanced video surveillance for small businesses and <a href="https://fusebill.com/" target="_blank" rel="noreferrer">Fusebill</a>, a fintech concentrating on subscription billing.
                             </h3>
-
                             <h3>
-                                Throughout my career I have concentrated on tackling complex problems, empowering others to
-                                build and design through collabortion, failing early and often, sharing lessons learned and mentoring those that are eager to explore.
+                                Throughout my career, I have concentrated on tackling complex problems, empowering others to build and design through collaboration, failing early 
+                                and often, sharing lessons learned and mentoring those that are eager to explore.
                             </h3>
-
                         </div>
                         <div>
                             <img src={'/cory.jpg'} alt="Cory Mckinnon" />
