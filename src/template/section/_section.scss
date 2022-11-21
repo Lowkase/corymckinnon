@@ -1,83 +1,38 @@
 // --------------------------------------------------------------------------------
-// LAYOUT - SECTION
+// TEMPLATE - SECTION
 //---------------------------------------------------------------------------------
 .section {
-    padding-bottom: $spacing-xxl;
-    padding-top: $spacing-xxl;
+    padding-bottom: $spacing-80;
+    padding-top: $spacing-80;
+
+    // First section has padding top chopped a bit
+    &:first-of-type {
+        padding-top: $spacing-48;
+    }
+
+    // All other sections have their padding chopped
+    &:not(:first-of-type) {
+        padding-top: 0;
+    }
+}
+
+.section-secondary {
+    background: $color-background-secondary;
+    color: $color-black; // better contrast than $color-text
+    padding-top: $spacing-80 !important;
+    margin-bottom: $spacing-80;
 }
 
 .container {
     margin: 0 auto;
     max-width: $client-width-max;
 
-    padding-left: $spacing-xxl;
-    padding-right: $spacing-xxl;
+    padding-left: $spacing-80;
+    padding-right: $spacing-80;
 }
-
-.section-secondary-color {
-    background: $color-background-secondary !important;
-    color: $color-black;
-
-    .section-con {
-        max-width: $client-width-max;
-    }    
-}
-
-.section-hero {
-    padding-bottom: 120px;
-    padding-top: $spacing-xl;   
-}
-
-.section-title {
-    margin-bottom: $spacing-xl;
-
-    h1, h2, h3 {
-        text-align: center;
-    }
-}
-
-
-.section-2-col {
-    display: flex;
-    gap: $spacing-l;
-    margin-top: $spacing-ml;
-    justify-content: space-between;
-
-    @media($bp-tablet) {
-        flex-direction: column;
-    }
-
-
-    > div {
-        width: 100%;
-    }
-    >div:nth-child(2) {
-        text-align: center;
-    }
-
-    img {
-        height: auto;
-        max-width: 300px;
-        width: 100%
-    }
-
-    h3 {
-        margin-bottom: $spacing-l;
-    }
-}
-
-.section-bottom-xxl {
-    padding-top: 0;
-}
-
-.section-l {
-    padding-bottom: $spacing-l;
-    padding-top: $spacing-l;
-}
-
 @media($bp-tablet) {
     .container {
-        padding-left: $spacing-ml;
-        padding-right: $spacing-ml;
+        padding-left: $spacing-28;
+        padding-right: $spacing-28;
     }
 }

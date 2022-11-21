@@ -7,7 +7,7 @@ import ButtonExternal from "../../components/button/buttonExternal"
 const Footer = (props) => {
   return (
     <footer>
-        <div class="links">
+        <div className="links">
             <ButtonEmail
                 mailAddress="cory.mckinnon@gmail.com"
                 scheme="m-button-light"

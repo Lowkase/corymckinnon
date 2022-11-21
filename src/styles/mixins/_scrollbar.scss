@@ -9,24 +9,17 @@
     }
   
     &::-webkit-scrollbar-thumb {
-        @include theme() {
-            background: theme-get('layout-scroll-thumb');
-        }
-
         border-radius: $border-radius-sb;
+        scrollbar-face-color: $scroll-thumb;
     }
   
     &::-webkit-scrollbar-track {
-        @include theme() {
-            background: theme-get('layout-scroll-background');
-        }
+        scrollbar-track-color: $scroll-background;
     }
   
     // For Internet Explorer
     & {
-        @include theme() {
-            scrollbar-face-color: theme-get('layout-scroll-thumb');
-            scrollbar-track-color: theme-get('layout-scroll-background');
-        }
+        scrollbar-face-color: $scroll-thumb;
+        scrollbar-track-color: $scroll-background;
     }
 }

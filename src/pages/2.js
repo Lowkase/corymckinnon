@@ -18,8 +18,8 @@ const IndexPage = (props) => {
             <a className="m-back" href="/"><SvgBack /> Back to recent work</a>
 
             {/* HERO + STATS */}
-            <Section className="section-bottom-xxl">
-                <div class="container">
+            <Section>
+                <div className="container">
                     {/* HERO */}
                     <div className="m-project-title">
                         <h1>Twitter Spam Violation Workbench</h1>
@@ -45,8 +45,8 @@ const IndexPage = (props) => {
             </Section>
 
             {/* MAIN FIGURE */}
-            <Section className="section-bottom-xxl">
-                <div class="container">
+            <Section>
+                <div className="container">
                     <figure className="m-figure">
                         <img src={'/twitter-2.jpg'} alt="High fidelity design of Twitter Spam Violation Workbench" />
                         <figcaption>High fidelity wireframe</figcaption>
@@ -55,8 +55,8 @@ const IndexPage = (props) => {
             </Section>
 
             {/* OVERVIEW */}
-            <Section className="section-secondary-color">
-                <div class="container">
+            <Section className="section-secondary">
+                <div className="container">
                     <h2>Overview</h2>
                     <p>
                         Innodata is a global leader in ML/AI (machine learning / artificial intelligence) specializing in data collection for 
@@ -96,7 +96,7 @@ const IndexPage = (props) => {
 
             {/* PROCESS */}
             <Section>
-                <div class="container">
+                <div className="container">
                     <h2>Process</h2>
                     <p>
                         As the sole designer on the project I needed to get a clear picture of the workbench rules and how moderators flowed through the Spam 
@@ -156,8 +156,8 @@ const IndexPage = (props) => {
             </Section>
 
             {/* SOLUTION */}
-            <Section className="section-secondary-color">
-                <div class="container">
+            <Section className="section-secondary">
+                <div className="container">
                     <h2>Solution</h2>
                     <p>
                         Once the design was complete and we had stakeholder sign-off, I finalized the wireframes and acceptance criteria.

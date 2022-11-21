@@ -1,12 +1,12 @@
 // --------------------------------------------------------------------------------
-// LAYOUT - FOOTER
+// TEMPLATE - FOOTER
 //---------------------------------------------------------------------------------
 .t-layout main header {
     align-items: center;
     display: flex;
-    gap: $spacing-l;
+    gap: $spacing-40;
     justify-content: space-between;
-    padding: $spacing-l $spacing-xxl;
+    padding: $spacing-40 $spacing-80;
 
     .logo {
         font-size: $font-size-m;
@@ -16,27 +16,28 @@
 
     .logo:hover {
         color: $color-tertiary;
+        transition: all $transition-timer-200ms $transition-easeInOutQuad;
     }
 
     .links {
         display: flex;
-        gap: $spacing-xl;
+        gap: $spacing-48;
         justify-content: right;
     }
 
     @media($bp-tablet) {
         align-items: left;
         flex-direction: column;
-        gap: $spacing-s;
+        gap: $spacing-12;
         justify-content: left;
-        padding: $spacing-ml $spacing-ml;
+        padding: $spacing-28 $spacing-28;
  
         .logo, .links {
             width: 100%;
         }
 
         .links {
-            gap: $spacing-m;
+            gap: $spacing-20;
             justify-content: left;
         }
     }

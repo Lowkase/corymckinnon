@@ -3,21 +3,20 @@
 // --------------------------------------------------------------------------------
 .m-back {
     align-items: center;
-    color: $color-black;
+    color: $color-text;
     display: flex;
-    padding: 0 $spacing-xxl $spacing-l $spacing-xxl;
+    padding: 0 $spacing-80 $spacing-40 $spacing-80;
     text-decoration: none;
 
     svg {
-        height: $spacing-ms;
-        margin-right: $spacing-xs;
-        width: $spacing-ms;
+        height: $spacing-16;
+        margin-right: $spacing-8;
+        width: $spacing-16;
     }
 
     @media($bp-tablet) {
-        padding: 0 $spacing-ml $spacing-l $spacing-ml;
+        padding: 0 $spacing-28 $spacing-40 $spacing-28;
     }
-
 }
 
 .m-back:hover {

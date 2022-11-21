@@ -3,7 +3,7 @@
 // --------------------------------------------------------------------------------
 .m-hero {
     display: grid;
-	grid-gap: $spacing-l;
+	grid-gap: $spacing-40;
 	grid-template-columns: 1fr 1fr;
 
     svg {
@@ -12,7 +12,7 @@
     }
 
     h1 {
-        margin-bottom: $spacing-xs;
+        margin-bottom: $spacing-8;
     }
 
     @media($bp-smart-tablet) {

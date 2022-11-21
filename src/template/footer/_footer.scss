@@ -1,20 +1,20 @@
 // --------------------------------------------------------------------------------
-// LAYOUT - FOOTER
+// TEMPLATE - FOOTER
 //---------------------------------------------------------------------------------
 .t-layout footer {
-    padding: $spacing-l $spacing-xxl;
+    padding: $spacing-40 $spacing-80;
 
     .links {
         display: flex;
-        gap: $spacing-xl;
+        gap: $spacing-48;
         justify-content: center;
-        margin-bottom: $spacing-m;
+        margin-bottom: $spacing-20;
 
         @media($bp-smart-tablet) {
             align-items: center;
             flex-direction: column;
-            gap: $spacing-m;
-            margin-bottom: $spacing-l;
+            gap: $spacing-20;
+            margin-bottom: $spacing-40;
         }
     }
 

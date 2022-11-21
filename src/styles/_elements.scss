@@ -21,6 +21,7 @@ body {
 }
 
 body, html {
+    background: $color-background-priarmy;
     color: $color-text;
     
     font-family: $font-family;
@@ -40,12 +41,6 @@ html {
 }
 
 .app {
-    @include position-relative-reset();
-    @include theme() {
-        background: theme-get('layout-body-background');
-        color: theme-get('layout-body-color');
-    } 
-
     height: 100%;
     width: 100%;
 
@@ -57,47 +52,47 @@ html {
     padding: 0;
 }
 
-a {
-    color: $color-text;
-}
-
-h1, h2, h3, h4 {
-    margin: 0;
-}
-
-h1 {
-    font-size: $font-size-xl;
-    font-weight: $font-weight-extrabold;
-    letter-spacing: .125rem;
-    line-height: 1.2;
-}
-
-h2 {
-    font-size: $font-size-l;
-    font-weight: $font-weight-extrabold;
-    letter-spacing: .05rem;
-}
-
-h3 {
-    font-size: $font-size-m;
-    font-weight: $font-weight-regular;
-    letter-spacing: .05rem;
-}
-
-h4 {
-    font-size: $font-size-s;
-    font-weight: $font-weight-regular;
-}
-
-.h-bold {
-    font-weight: $font-weight-semibold;
-}
-
 p {
     font-size: 18px;
     font-weight: $font-weight-regular;
     letter-spacing: .05rem;    
 }
+
+a {
+    color: $color-text;
+}
+
+    h1, h2, h3, h4 {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: $font-size-xl;
+        font-weight: $font-weight-extrabold;
+        letter-spacing: .125rem;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: $font-size-l;
+        font-weight: $font-weight-extrabold;
+        letter-spacing: .05rem;
+    }
+
+    h3 {
+        font-size: $font-size-m;
+        font-weight: $font-weight-regular;
+        letter-spacing: .05rem;
+    }
+
+    h4 {
+        font-size: $font-size-s;
+        font-weight: $font-weight-regular;
+    }
+
+    .h-bold {
+        font-weight: $font-weight-semibold;
+    }
 
 ul {
     list-style-type: none;

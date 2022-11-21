@@ -1,8 +1,8 @@
 // --------------------------------------------------------------------------------
-// LAYOUT - MAIN
+// TEMPLATE - MAIN
 //---------------------------------------------------------------------------------
 .t-layout main {
-    @include scrollbar($spacing-xs, 0);
+    @include scrollbar($spacing-8, 0);
     
     background: $color-background-priarmy;
     overflow-y: auto;

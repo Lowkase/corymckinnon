@@ -3,15 +3,11 @@
 //---------------------------------------------------------------------------------
 
 // MIXINS
-@import 'mixins/animate';
 @import 'mixins/font-size';
 @import 'mixins/keyframes';
 @import 'mixins/position';
 @import 'mixins/scrollbar';
 @import 'mixins/text-truncate';
-@import 'mixins/themes';
-@import 'mixins/transform';
-@import 'mixins/transition';
 
 // BASE
 @import 'variables';

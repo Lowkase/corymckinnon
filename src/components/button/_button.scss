@@ -2,8 +2,6 @@
 // COMPONENTS - BUTTON
 // --------------------------------------------------------------------------------
 .m-button {
-    @include transition (all $transition-timer-200ms $transition-easeInOutQuad);
-
     cursor: pointer;
     display: flex;
     font-weight: $font-weight-semibold;
@@ -20,4 +18,5 @@
 .m-button:hover {
     color: $color-tertiary;
     text-decoration: underline;
+    transition: all $transition-timer-200ms $transition-easeInOutQuad;
 }

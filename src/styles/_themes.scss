@@ -8,32 +8,13 @@ $color-primary:                 $color-blue;
 $color-secondary:               $color-blue-lighter;
 $color-tertiary:                $color-oragne;
 
-// TEXT
+// TEXT COLOR
 $color-text:                    $color-gray;
 
-// BACKGROUND
+// BACKGROUND COLOR
 $color-background-priarmy:      $color-white-darker;
 $color-background-secondary:    $color-blue-lighter;
 
-
-
-
-// MOVE THE THEME STUFF INTO VARIABLES
-
-
-$themes: (
-    theme: (
-        'element-link-color': $color-transparent,
-        'layout-scroll-background': $color-transparent,
-        'layout-scroll-thumb': $color-gray,
-    )
-);
-
-// THEME USAGE
-/*
-.body {
-    @include theme() {
-        background: theme-get('layout-body-background');
-    }    
-}
-*/
+// SCROLL
+$scroll-background:             $color-transparent;
+$scroll-thumb:                  $color-gray;

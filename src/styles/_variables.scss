@@ -14,7 +14,6 @@ $client-width-max:                          1024px;
 //$darken:                                  darken($color, 10);
 //$lighten:                                 lighten($color, 10);
 
-
 // TRANSPARENT
 $color-transparent:                         transparent;
 
@@ -52,7 +51,7 @@ $font-weight-semibold:                       700;
 $font-weight-extrabold:                      900;
 
 $font-size-xs:                               12px;
-$font-size-s:                                16px;
+$font-size-s:                                18px;
 $font-size-m:                                20px;
 $font-size-l:                                24px;
 $font-size-xl:                               44px;
@@ -60,15 +59,14 @@ $font-size-xl:                               44px;
 
 // SPACING
 // --------------------------------------------------------------------------------
-$spacing-xs:                                 8px;
-$spacing-s:                                  12px;
-$spacing-ms:                                 16px;
-$spacing-m:                                  20px;
-$spacing-mml:                                24px;
-$spacing-ml:                                 28px;
-$spacing-l:                                  40px;
-$spacing-xl:                                 48px;
-$spacing-xxl:                                80px;
+$spacing-8:                                  8px;
+$spacing-12:                                 12px;
+$spacing-16:                                 16px;
+$spacing-20:                                 20px;
+$spacing-28:                                 28px;
+$spacing-40:                                 40px;
+$spacing-48:                                 48px;
+$spacing-80:                                 80px;
 
 
 // Z-INDEX
@@ -82,7 +80,7 @@ $zi-popover:                           		 99;
 // BORDER
 // --------------------------------------------------------------------------------
 $border-color:                               $color-transparent;
-$border-radius:								 4px;
+$border-radius:								 3px;
 
 
 // BOX SHADOW

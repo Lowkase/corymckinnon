@@ -2,23 +2,21 @@
 // COMPONENTS - CARD
 // --------------------------------------------------------------------------------
 .m-card {
-    @include transition (all $transition-timer-200ms $transition-easeInOutQuad);
-
     align-items: center;
-    border-radius: 3px;
+    border-radius: $border-radius;
     box-shadow: $box-shadow;
-    color: $color-black;
+    color: $color-text;
     display: flex;
     flex-direction: column;
     justify-content: baseline;
-    padding: $spacing-l;
+    padding: $spacing-40;
     text-decoration: none;
     text-align: center;
 
     img {
         display: block;
         height: auto;
-        margin-bottom: $spacing-s;
+        margin-bottom: $spacing-12;
         width: 100%;
     }
 
@@ -31,6 +29,15 @@
     background: $color-blue-lightest;
     box-shadow: $box-shadow-hover;
     transform: $transform-card-hover;
+    transition: all $transition-timer-200ms $transition-easeInOutQuad;
+}
+
+.m-card-title {
+    margin-bottom: $spacing-40;
+
+    h1, h2, h3 {
+        text-align: center;
+    }
 }
 
 // CARD GRID
@@ -41,18 +48,18 @@
 }
   
 .m-card-grid-row {
-    margin-bottom: $spacing-l;
+    margin-bottom: $spacing-40;
 }
   
 .m-card-grid-2 {
     display: grid;
-    grid-column-gap: $spacing-l;
-    grid-row-gap: $spacing-l;
+    grid-column-gap: $spacing-40;
+    grid-row-gap: $spacing-40;
     grid-template-columns: 1fr 1fr;
 }
 .m-card-grid-3 {
     display: grid;
-    grid-column-gap: $spacing-l;
+    grid-column-gap: $spacing-40;
     grid-template-columns: 1fr 1fr 1fr;
 }
 @media($bp-tablet) {

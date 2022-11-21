@@ -18,8 +18,8 @@ const IndexPage = (props) => {
             <a className="m-back" href="/"><SvgBack /> Back to recent work</a>
 
             {/* HERO + STATS */}
-            <Section className="section-bottom-xxl">
-                <div class="container">
+            <Section>
+                <div className="container">
                     {/* HERO */}
                     <div className="m-project-title">
                         <h1>Build and Price Redesign</h1>
@@ -45,8 +45,8 @@ const IndexPage = (props) => {
             </Section>
 
             {/* MAIN FIGURE */}
-            <Section className="section-bottom-xxl">
-                <div class="container">
+            <Section>
+                <div className="container">
                     <figure className="m-figure">
                         <img src={'/ownly-2.jpg'} alt="High fidelity designs for mobile" />
                         <figcaption>High fidelity wireframes</figcaption>
@@ -55,8 +55,8 @@ const IndexPage = (props) => {
             </Section>
 
             {/* OVERVIEW */}
-            <Section className="section-secondary-color">
-                <div class="container">
+            <Section className="section-secondary">
+                <div className="container">
                     <h2>Overview</h2>
                     <p>
                         Ownly's goal is to disrupt the new home-buying experience by moving in-person sales interactions and 
@@ -95,7 +95,7 @@ const IndexPage = (props) => {
 
             {/* PROCESS */}
             <Section>
-                <div class="container">
+                <div className="container">
                     <h2>Process</h2>
                     <p>
                         We didn't have a clear picture of all the features, flows and rules associated with the current Build and Price so we 
@@ -143,8 +143,8 @@ const IndexPage = (props) => {
             </Section>
 
             {/* SOLUTION */}
-            <Section className="section-secondary-color">
-                <div class="container">
+            <Section className="section-secondary">
+                <div className="container">
                     <h2>Solution</h2>
                     <p>
                         We continued to iterate on the new concepts and test them until we finalized the design. Handoff included acceptance criteria 
