@@ -69,16 +69,15 @@ const IndexPage = (props) => {
                     </p>                    
                     <p>
                         Moderators visually scan the offending Tweet, search through the user's account to find incidents of past violations and then
-                        answer a few questions to annotate the task. The annotated data is collated and sent back to Twitter to prime its ML 
+                        answer questions to annotate the task. The annotated data is collated and sent back to Twitter to prime its ML 
                         algorithms ensuring the Twitter Spam  Violation AI becomes more accurate over time.
                         Moderators are scored by how many batches of tasks they can complete in a working session (SAR score). It is very important
                         that the moderators work quickly, and consistently and produce quality annotations.
                     </p>
                     <p>
-                        Our internal Twitter team, through interactions with Twitter managers, identified a need to improve the volume, 
-                        consistency and quality of the data being fed into their ML algorithms. After a few meetings with the Twitter team, 
-                        product management and engineering it was determined that the best course of action was to improve the workbench 
-                        experience for moderators.
+                        After receiving feedback from Twitter, the internal team identified a need to improve the volume, consistency and quality of the data 
+                        being fed into their ML algorithms. After a few meetings with our Twitter team, product management, and engineering it was determined 
+                        that the best course of action was to improve the workbench experience for moderators.
                     </p>
                     <div className="m-highlight m-hightlight-invert">
                         How can the Twitter Spam Violation Workbench be improved to increase moderator SARs scores, consistency and quality?
@@ -110,42 +109,43 @@ const IndexPage = (props) => {
                     </p>
                     <p>
                         The videos exposed many pain points that inhibited the moderators from producing faster SAR scores. Moderators used many 
-                        different browser  tabs to view Tweets, user accounts, keyword searches, and to translate text into their native languages. 
-                        Moderators were spending a lot of time copying and pasting text between browser tabs. We went back to the Twitter team and 
-                        confirmed that the pain points were valid and that addressing them would help to increase 
+                        different browser tabs to view Tweets, user accounts, keyword searches, and to translate text into their native languages. 
+                        Moderators were spending a significant amount of time copying and pasting text between browser tabs. 
+                        We went back to the Twitter team and confirmed the validity of the pain points and determined that addressing them would help to increase 
                         SARs scores. 
                     </p>
                     <p>
-                        We had a large amount of data compiled on how moderators flowed through the workbench so I mapped it out and met with the 
-                        Twitter team to confirm my assumptions. It took a few iterations to get a correct baseline that we then used as a source of
-                        truth for going wide on the design. 
+                        We had a large amount of data compiled detailing how moderators flowed through the workbench. After mapping the data, we met with the 
+                        Twitter team to confirm our assumptions. It took a few iterations to get a correct baseline which we then used as a source of
+                        truth for going wide during the design phase. 
                     </p>
                     <figure className="m-figure">
                         <img src={'/twitter-3.jpg'} alt="Early prototypes" />
                         <figcaption>Mapping the Twitter moderator experience</figcaption>
                     </figure>
                     <p>
-                        It was important to include the Twitter team in every step of the design process to ensure their voice was heard. 
-                        I gathered some key stakeholders and a few moderators together for a “What If” exercise to go wide with our thinking.
+                        Including the Twitter team in every step of the design process was very important. 
+                        We brought together key stakeholders and moderators for a “What If” exercise allowing us to go wide with our thinking.
                     </p>
                     <figure className="m-figure">
                         <img src={'/twitter-5.jpg'} alt="What if exercise" />
                         <figcaption>What if exercise</figcaption>
                     </figure>
                     <p>
-                        The key observation coming out of the research and ideation was that we needed to bring the information that the 
-                        moderators were viewing in separate browser tabs inline into the app and give the moderators tools to avoid copying 
-                        and pasting repetitively. I spent some time producing mock-ups with different layouts, interactions and ideas and met 
-                        again with the team to do some validation.
+                        Based on observations from the research and ideation sessions it was clear we needed to bring all data
+                        points that the moderators required inline to the app. Accessing data across multiple browser tabs was costing 
+                        moderators time. We also needed to give the moderators tools to translate and
+                        copy text with ease. I spent time producing mock-ups with different layouts, interactions and ideas and met 
+                        again with the team to validate.
                     </p>
                     <figure className="m-figure">
                         <img src={'/twitter-6.jpg'} alt="An initial mockup" />
                         <figcaption>An initial mockup</figcaption>
                     </figure>
                     <p>
-                        While the team agreed with most of the design concepts the interface still seemed busy and missed some key elements. 
-                        We brainstormed as a team and continued to iterate the design to take away some extraneous elements (history section), 
-                        add in some small but very useful features (inline translation and batch/task progress) and clean up some interactions 
+                        While the team agreed with most design concepts, the interface was busy and missed important elements. 
+                        We continued to brainstorm and iterate the design to take away extraneous items (history section), 
+                        add small, useful features (inline translation and batch/task progress) and improved interactions 
                         (minimize tasks when completed).
                     </p>
                     <figure className="m-figure">
@@ -160,13 +160,12 @@ const IndexPage = (props) => {
                 <div class="container">
                     <h2>Solution</h2>
                     <p>
-                        Once the design was complete and we had sign-off from all stakeholders I finalized the designs by ensuring all use cases 
-                        were represented and that the acceptance criterion was included right in the design files. We met with engineering to kick 
-                        off the development and had touchpoints with them on a very regular basis to ensure the design was understood and implemented 
-                        correctly.
+                        Once the design was complete and we had stakeholder sign-off, I finalized the wireframes and acceptance criteria.
+                        We met with engineering to kick off the development phase and had touchpoints with them regularly to ensure the design was 
+                        understood and implemented correctly.
                     </p>
                     <p>
-                        After a few weeks with the new workbench being used in production, we were able to pull some stats and reactions from 
+                        After the workbench had been in production for a few weeks, we were able to pull some stats and reactions from 
                         the Twitter team to back up our initial goals and KPIs.
                     </p>
                     <div className="m-highlight-grid">
@@ -186,7 +185,7 @@ const IndexPage = (props) => {
                         Watching videos of user interactions is an invaluable way to understand flow and pain points.
                     </div>  
                     <div className="m-highlight m-hightlight-invert">
-                        Twitter moderators see some truly harmful things. I wish we could have designed a way to mask some of the harmful 
+                        Twitter moderators see some truly harmful visuals. I wish we could have designed a way to mask some of the harmful 
                         imagery they are exposed to.
                     </div>  
                 </div>
