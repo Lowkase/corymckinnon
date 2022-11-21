@@ -16,17 +16,16 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
-              // The property ID; the tracking code won't be generated without it
-//trackingId: "G-X67GTHLLR0",
-trackingId: "G-11111111",
-              // Defines where to place the tracking script - `true` in the head and `false` in the body
-              head: true,
-              // Avoids sending pageview hits from custom paths
-              exclude: ["/preview/**", "/do-not-track/me/too/"],
-              // Delays sending pageview hits on route update (in milliseconds)
-              pageTransitionDelay: 0,
-              // Defers execution of google analytics script after page load
-              defer: false,
+                // The property ID; the tracking code won't be generated without it
+                trackingId: "G-4XJYSFRSR9",
+                // Defines where to place the tracking script - `true` in the head and `false` in the body
+                head: true,
+                // Avoids sending pageview hits from custom paths
+                exclude: ["/preview/**", "/do-not-track/me/too/"],
+                // Delays sending pageview hits on route update (in milliseconds)
+                pageTransitionDelay: 0,
+                // Defers execution of google analytics script after page load
+                defer: false,
             },
         },
         `gatsby-plugin-sass`,

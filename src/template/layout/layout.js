@@ -11,7 +11,7 @@ const Layout = (props) => {
             <Helmet>
                 <meta name="title" content="Cory Mckinnon" />
                 <meta name="keywords" content="Cory Mckinnon, design, designer, product design, portfolio, ui/ux, ux" />
-                <meta name="description" content="Complex design problems simplified. I'm a Designer with a passion for complex systems, big data, AI/ML and solving problems." />
+                <meta name="description" content="Cory Mckinnon, product designer, lead ui/ux. Complex design problems simplified. I'm a Designer with a passion for complex systems, big data, AI/ML and solving problems." />
                 <meta http-equiv="content-language" content="en-us" />
                 <link rel="icon" href={Favicon} sizes="any" />
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:thin,light,regular,bold,black" />
