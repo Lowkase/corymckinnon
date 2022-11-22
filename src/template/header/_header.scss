@@ -34,9 +34,9 @@
     @media($bp-tablet) {
         align-items: left;
         flex-direction: column;
-        gap: $spacing-12;
+        gap: 0;
         justify-content: left;
-        padding: $spacing-28 $spacing-28;
+        padding: $spacing-20 $spacing-28;
  
         .logo, .links {
             width: 100%;
