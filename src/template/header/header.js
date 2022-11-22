@@ -16,7 +16,7 @@ const Header = (props) => {
             </ButtonEmail>
             <ButtonExternal
                 link="https://www.linkedin.com/in/cory-mckinnon-62337a3/"
-                text="Linked In"
+                text="Linkedin"
             >
             </ButtonExternal>
             <ButtonExternal

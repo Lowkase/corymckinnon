@@ -3,10 +3,15 @@
 //---------------------------------------------------------------------------------
 .t-layout main header {
     align-items: center;
+    background: $color-white-transprent;
     display: flex;
     gap: $spacing-40;
     justify-content: space-between;
     padding: $spacing-40 $spacing-80;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: $zi-popover;
 
     .logo {
         font-size: $font-size-m;
@@ -21,6 +26,7 @@
 
     .links {
         display: flex;
+        font-size: $font-size-xs;
         gap: $spacing-48;
         justify-content: right;
     }
