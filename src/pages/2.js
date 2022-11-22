@@ -20,7 +20,7 @@ const IndexPage = (props) => {
             {/* HERO + STATS */}
             <Section>
                 <div className="container">
-                    {/* HERO */}
+                    {/* TITLE */}
                     <div className="m-project-title">
                         <h1>Twitter Spam Violation Workbench</h1>
                         <h3>Innodata</h3>

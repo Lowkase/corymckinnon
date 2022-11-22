@@ -76,17 +76,17 @@ const IndexPage = (props) => {
                     <h1>Greetings</h1>
                     <div className="m-2col">
                         <div>
-                            <h3>
+                            <p>
                                 In my former life, I was a developer for many years until I was drawn to the design side of the house 
                                 in 2014 by some amazing mentors at <a href="https://www.macadamian.com/" target="_blank" rel="noreferrer">Macadamian</a>.
-                            </h3>
-                            <h3>
+                            </p>
+                            <p>
                                 Previously, I led the design efforts for <a href="https://theownly.io/" target="_blank" rel="noreferrer">Ownly</a>, a burgeoning prop tech, <a href="https://https://innodata.com//" target="_blank" rel="noreferrer">Innodata</a>, a leader in ML/AI, <a href="https://solink.com/" target="_blank" rel="noreferrer">Solink</a>, advanced video surveillance for small businesses and <a href="https://fusebill.com/" target="_blank" rel="noreferrer">Fusebill</a>, a fintech concentrating on subscription billing.
-                            </h3>
-                            <h3>
+                            </p>
+                            <p>
                                 Throughout my career, I have concentrated on tackling complex problems, empowering others to build and design through collaboration, failing early 
                                 and often, sharing lessons learned and mentoring those that are eager to explore.
-                            </h3>
+                            </p>
                         </div>
                         <div>
                             <img src={'/cory.jpg'} alt="Cory Mckinnon" />
