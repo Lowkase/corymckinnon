@@ -42,7 +42,7 @@ const IndexPage = (props) => {
                         {/* ROW 1 */}
                         <div className="m-card-grid-row m-card-grid-2">
                             <a className="m-card" href="/1">
-                                <img src={'/ownly-1.png'} alt="Ownly Sample Designs" />
+                                <img src={'/ownly-1.png'} alt="Ownly high fidelity mobile designs" />
                                 <h3 className="h-bold">Build and Price Redesign</h3>
                                 <h4>Ownly</h4>
                             </a>
@@ -53,20 +53,14 @@ const IndexPage = (props) => {
                             </a>
                         </div>
 
-                        {/* ROW 2 
+                        {/* ROW 2  */}
                         <div className="m-card-grid-row m-card-grid-2">
                         <a className="m-card" href="/3">
-                                <img src={'/ownly.png'} alt="Ownly Sample Designs" />
-                                <h3 className="h-bold">Build and Price Redesign</h3>
-                                <h4>Ownly</h4>
-                            </a>
-                            <a className="m-card" href="/4">
-                                <img src={'/ownly.png'} alt="Ownly Sample Designs" />
-                                <h3 clasclassNames="h-bold">Build and Price Redesign</h3>
-                                <h4>Ownly</h4>
+                                <img src={'/solink-1.jpg'} alt="Event search high fidelity design" />
+                                <h3 className="h-bold">Event Search</h3>
+                                <h4>Solink</h4>
                             </a>
                         </div>
-                        */}
                     </section>
                 </div>
             </Section>

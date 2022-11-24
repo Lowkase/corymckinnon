@@ -117,7 +117,7 @@ const IndexPage = (props) => {
                     </p>
                     <figure className="m-figure">
                         <img src={'/ownly-3.jpg'} alt="Early prototypes" />
-                        <figcaption>Early prototye</figcaption>
+                        <figcaption>Early prototyes</figcaption>
                     </figure>
                     <p>
                         After many iterations we were onto something good, the language was improving, and the new features were slotting in but 

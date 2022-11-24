@@ -120,7 +120,7 @@ const IndexPage = (props) => {
                         truth for going wide during the design phase. 
                     </p>
                     <figure className="m-figure">
-                        <img src={'/twitter-3.jpg'} alt="Early prototypes" />
+                        <img src={'/twitter-3.jpg'} alt="Early prototype" />
                         <figcaption>Mapping the Twitter moderator experience</figcaption>
                     </figure>
                     <p>
