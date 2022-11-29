@@ -14,20 +14,12 @@ module.exports = {
     },
     plugins: [
         {
-            resolve: `gatsby-plugin-google-analytics`,
+            resolve: "gatsby-plugin-google-tagmanager",
             options: {
-                // The property ID; the tracking code won't be generated without it
-                trackingId: "G-4XJYSFRSR9",
-                // Defines where to place the tracking script - `true` in the head and `false` in the body
-                head: true,
-                // Avoids sending pageview hits from custom paths
-                exclude: ["/preview/**", "/do-not-track/me/too/"],
-                // Delays sending pageview hits on route update (in milliseconds)
-                pageTransitionDelay: 0,
-                // Defers execution of google analytics script after page load
-                defer: false,
+              id: "G-4XJYSFRSR9",
+              includeInDevelopment: false,
             },
-        },
+        },        
         `gatsby-plugin-sass`,
         `gatsby-plugin-sitemap`,        
         {

@@ -71,8 +71,8 @@ const IndexPage = (props) => {
                         Moderators visually scan the offending Tweet, search through the user's account to find incidents of past violations and then
                         answer questions to annotate the task. The annotated data is collated and sent back to Twitter to prime its ML 
                         algorithms ensuring the Twitter Spam  Violation AI becomes more accurate over time.
-                        Moderators are scored by how many batches of tasks they can complete in a working session (SAR score). It is very important
-                        that the moderators work quickly, and consistently and produce quality annotations.
+                        Moderators are scored by how many batches of tasks they can complete in a working session (SAR score). Moderators
+                        must work quickly, and consistently to produce quality annotations.
                     </p>
                     <p>
                         After receiving feedback from Twitter, the internal team identified a need to improve the volume, consistency and quality of the data 
