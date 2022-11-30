@@ -23,8 +23,8 @@ module.exports = {
                 "G-4XJYSFRSR9", // Google Analytics / GA
               ],
               pluginConfig: {
-                head: true,
-                delayOnRouteUpdate: 4,
+                head: false,
+                delayOnRouteUpdate: 0,
               },
             },
         },        
