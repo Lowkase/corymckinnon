@@ -14,14 +14,14 @@
     },
     "dependencies": {
         "gatsby": "^5.2.0",
-        "gatsby-plugin-google-tagmanager": "^5.2.0",
+        "gatsby-plugin-google-gtag": "^5.2.0",
         "gatsby-plugin-robots-txt": "^1.8.0",
         "gatsby-plugin-sass": "^6.2.0",
         "gatsby-plugin-sitemap": "^6.2.0",
         "node-sass": "^8.0.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "react-helmet": "^6.1.0"        
+        "react-helmet": "^6.1.0"
     },
     "repository": {
         "type": "git",

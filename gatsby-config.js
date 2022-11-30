@@ -14,10 +14,15 @@ module.exports = {
     },
     plugins: [
         {
-            resolve: "gatsby-plugin-google-tagmanager",
+            resolve: `gatsby-plugin-google-gtag`,
             options: {
-              id: "G-4XJYSFRSR9",
-              includeInDevelopment: false,
+              trackingIds: [
+                "G-4XJYSFRSR9", // Google Analytics / GA
+              ],
+              pluginConfig: {
+                head: true,
+                delayOnRouteUpdate: 0,
+              },
             },
         },        
         `gatsby-plugin-sass`,
