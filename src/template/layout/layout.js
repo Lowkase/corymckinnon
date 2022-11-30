@@ -9,7 +9,7 @@ const Layout = (props) => {
     return (
         <div>
             <Helmet>
-                <meta name="title" content="Cory Mckinnon" />
+                <meta name="title" content="Cory Mckinnon Portfolio" />
                 <meta name="keywords" content="Cory Mckinnon, design, designer, product design, portfolio, ui/ux, ux" />
                 <meta name="description" content="Cory Mckinnon, product designer, lead ui/ux. Complex design problems simplified. A Designer with a passion for complex systems, big data, AI/ML and solving problems." />
                 <meta http-equiv="content-language" content="en-us" />
