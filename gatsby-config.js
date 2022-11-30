@@ -11,6 +11,9 @@ const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL
 module.exports = {
     siteMetadata: {
       siteUrl: siteUrl,
+      title: 'Cory Mckinnon Portfolio',
+      keywords: 'Cory Mckinnon, design, designer, product design, portfolio, ui/ux, ux',
+      description: 'Cory Mckinnon, product designer, lead ui/ux. Complex design problems simplified. A Designer with a passion for complex systems, big data, AI/ML and solving problems.',
     },
     plugins: [
         {
@@ -21,7 +24,7 @@ module.exports = {
               ],
               pluginConfig: {
                 head: true,
-                delayOnRouteUpdate: 0,
+                delayOnRouteUpdate: 4,
               },
             },
         },        
