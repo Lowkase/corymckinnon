@@ -2,6 +2,10 @@
 // STYLE - MASTER IMPORT
 //---------------------------------------------------------------------------------
 
+// BASE
+@import 'variables';
+@import 'themes';
+
 // MIXINS
 @import 'mixins/font-size';
 @import 'mixins/keyframes';
@@ -9,9 +13,7 @@
 @import 'mixins/scrollbar';
 @import 'mixins/text-truncate';
 
-// BASE
-@import 'variables';
-@import 'themes';
+// ELEMENTS
 @import 'elements';
 
 // CONTROLS 

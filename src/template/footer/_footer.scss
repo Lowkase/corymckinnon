@@ -9,13 +9,13 @@
         font-size: $font-size-xs;
         gap: $spacing-48;
         justify-content: center;
-        margin-bottom: $spacing-20;
+        margin-bottom: $spacing-40;
 
         @media($bp-smart-tablet) {
             align-items: center;
             flex-direction: column;
             gap: $spacing-20;
-            margin-bottom: $spacing-40;
+            margin-bottom: $spacing-80;
         }
     }
 

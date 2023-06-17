@@ -11,11 +11,10 @@ const ButtonEmail = (props) => {
             target="_blank"
             title={props.text}
         >
-            { props.svgShow ? (
-                props.svgSvg
-            ) : (
-                props.text
-            )}
+            { props.svgSvg }
+            <span>
+                { props.text }
+            </span>
         </a>
     );
 }

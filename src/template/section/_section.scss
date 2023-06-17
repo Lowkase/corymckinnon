@@ -23,6 +23,10 @@
     margin-bottom: $spacing-80;
 }
 
+.section-last {
+    margin-bottom: 0;
+}
+
 .container {
     margin: 0 auto;
     max-width: $client-width-max;

@@ -5,7 +5,7 @@
 // CLIENT
 // --------------------------------------------------------------------------------
 $client-height:                             720px;
-$client-width:                              360px;
+$client-width:                              400px;
 $client-width-max:                          1024px;
 
 
@@ -23,10 +23,11 @@ $color-white-darker:                        #FFFFFE;
 $color-white-transprent:                    rgba(255, 255, 255, .95);
 
 // BLACK
-$color-black: 								#000000;
+$color-black: 								#1f1f1f;
 
 // GREY
 $color-gray:                                #2b2c34;
+$color-gray-light:                          #F0F0F0;
 
 // INDIGO
 $color-indigo-dark:                         #364FC7;
@@ -40,10 +41,15 @@ $color-blue-lightest:                       #f3f3ff;
 // ORAGNE
 $color-oragne:                              #e45874;
 
+// PINK
+$color-pink:                                #AF0093;
+$color-pink-light:                          #EFCCE9;
 
 // FONTS
 // --------------------------------------------------------------------------------
 $font-family:                                Lato, sans-serif;
+$font-family-header:                         Lato, sans-serif;
+$font-family-content:                        Nunito, sans-serif;
 
 $font-weight-thin:                           100;
 $font-weight-light:                          300;
@@ -51,16 +57,18 @@ $font-weight-regular:                        400;
 $font-weight-semibold:                       700;
 $font-weight-extrabold:                      900;
 
-$font-size-xxs:                              12px;
+$font-size-xxs:                              14px;
 $font-size-xs:                               16px;
 $font-size-s:                                18px;
 $font-size-m:                                20px;
-$font-size-l:                                24px;
+$font-size-l:                                28px;
+$font-size-ml:                               36px;
 $font-size-xl:                               44px;
 
 
 // SPACING
 // --------------------------------------------------------------------------------
+$spacing-4:                                  4px;
 $spacing-8:                                  8px;
 $spacing-12:                                 12px;
 $spacing-16:                                 16px;

@@ -65,7 +65,7 @@ const IndexPage = (props) => {
                 </div>
             </Section>
 
-            <Section className="section-secondary">
+            <Section className="section-secondary section-last">
                 <div className="container">
                     <h1>Greetings</h1>
                     <div className="m-2col">

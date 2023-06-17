@@ -10,11 +10,10 @@ const ButtonExternal = (props) => {
             rel="noreferrer"
             target="_blank"
         >
-            { props.svgShow ? (
-                props.svgSvg
-            ) : (
-                props.text
-            )}            
+            { props.svgSvg }
+            <span>
+                { props.text }
+            </span>
         </a>
     );
 }

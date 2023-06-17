@@ -3,6 +3,11 @@ import React from 'react';
 import ButtonEmail from "../../components/button/ButtonEmail"
 import ButtonExternal from "../../components/button/buttonExternal"
 
+import SvgEmail from "../../assets/svgs/email.js"
+import SvgLinkedin from "../../assets/svgs/linkedin.js"
+import SvgDribbble from "../../assets/svgs/dribbble.js"
+import SvgResume from "../../assets/svgs/resume.js"
+
 // FOOTER
 const Footer = (props) => {
   return (
@@ -10,25 +15,25 @@ const Footer = (props) => {
         <div className="links">
             <ButtonEmail
                 mailAddress="cory.mckinnon@gmail.com"
-                scheme="m-button-light"
+                svgSvg={<SvgEmail className="icon" />}
                 text="Email"
             >
             </ButtonEmail>
             <ButtonExternal
                 link="https://www.linkedin.com/in/cory-mckinnon-62337a3/"
-                scheme="m-button-light"
-                text="Linked In"
+                svgSvg={<SvgLinkedin className="icon" />}
+                text="Linkedin"
             >
             </ButtonExternal>
             <ButtonExternal
                 link="https://dribbble.com/CoryMckinnon"
-                scheme="m-button-light"
+                svgSvg={<SvgDribbble className="icon" />}
                 text="Dribbble"
             >
             </ButtonExternal>
             <ButtonExternal
-                link="https://docs.google.com/document/d/1RcVqvD-w9cyuay0HiPRBK6v_2gBLfZzPrLQMAAq5GTg/edit?usp=sharing"
-                scheme="m-button-light"
+                link="https://drive.google.com/file/d/1DSRCKpfpMO5Cr-uNbnWMpDXnOMrQ6cA9/view?usp=sharing"
+                svgSvg={<SvgResume className="icon" />}
                 text="Resume"
             >
             </ButtonExternal>

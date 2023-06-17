@@ -2,21 +2,27 @@
 // COMPONENTS - BUTTON
 // --------------------------------------------------------------------------------
 .m-button {
+    align-items: center;
     cursor: pointer;
     display: flex;
-    font-weight: $font-weight-semibold;
-    line-height: $font-size-xl;
-    text-decoration: none;
+    font-weight: $font-weight-light;
+    gap: $spacing-8;
+    justify-content: space-between;
+    text-decoration: underline;
 
     svg {
-        display: block;
+        display: inline-block;
+        fill: $color-primary;
         height: $font-size-m;
         width: $font-size-m;
+    }
+
+    @media($bp-tablet) {
+        gap: $spacing-4;
     }
 }
 
 .m-button:hover {
-    color: $color-tertiary;
-    text-decoration: underline;
+    color: $color-primary;
     transition: all $transition-timer-200ms $transition-easeInOutQuad;
 }

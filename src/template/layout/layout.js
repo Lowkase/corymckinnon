@@ -15,7 +15,10 @@ const Layout = (props) => {
                 <meta http-equiv="content-language" content="en-us" />
                 <meta name="google-site-verification" content="tuWwpNBlCQtbM7LusfNRtfgvTps476Ib-ue1Uml4DDU" />
                 <link rel="icon" href={Favicon} sizes="any" />
+                <link rel="canonical" href="https://cory-mckinnon.com/index"></link>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:thin,light,regular,bold,black" />
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:thin,regular" />
+
             </Helmet>
             <div className="app t-layout">
                 <Main props = { props.children }></Main>

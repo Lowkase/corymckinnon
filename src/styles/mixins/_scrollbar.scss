@@ -1,25 +1,19 @@
 // --------------------------------------------------------------------------------
 // MIXINS - SCROLLBAR
 // --------------------------------------------------------------------------------
-@mixin scrollbar($size, $border-radius-sb) {
-    // For Google Chrome
+@mixin scrollbar($size) {
+    // For Chrome & Safari
     &::-webkit-scrollbar {
-        width:  $size;
+        width: $size;
         height: $size;
     }
-  
     &::-webkit-scrollbar-thumb {
-        border-radius: $border-radius-sb;
-        scrollbar-face-color: $scroll-thumb;
+        background: $scroll-thumb;
     }
-  
     &::-webkit-scrollbar-track {
-        scrollbar-track-color: $scroll-background;
+        background: $scroll-background;
     }
-  
-    // For Internet Explorer
-    & {
-        scrollbar-face-color: $scroll-thumb;
-        scrollbar-track-color: $scroll-background;
-    }
+
+    // Standard version (Firefox only for now)
+    scrollbar-color: $scroll-thumb $scroll-background;
 }
